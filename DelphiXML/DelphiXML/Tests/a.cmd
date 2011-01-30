@@ -1,0 +1,1 @@
+"C:\Program Files\ExamDiff\ExamDiff.exe" %1 %2

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+	<xs:element name="config">
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="Сonfig"/>
+      </xs:annotation>
+      <xs:sequence>
+				<xs:element name="mainFormCaption" type="xs:string"/>
+				<xs:element maxOccurs="unbounded" name="Button">
+					<xs:complexType>
+						<xs:annotation>
+              <xs:appinfo xdb:repeated="True"/>
+            </xs:annotation>
+            <xs:attribute name="image" type="xs:string" use="required"/>
+						<xs:attribute name="open" type="xs:string" use="optional"/>
+						<xs:attribute name="x" type="xs:unsignedShort" use="required"/>
+						<xs:attribute name="y" type="xs:unsignedByte" use="required"/>
+						<xs:attribute name="action" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="backGround">
+					<xs:complexType>
+						<xs:attribute name="filename" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AllPages">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="font">
+								<xs:complexType>
+									<xs:attribute name="size" type="xs:unsignedByte" use="required"/>
+									<xs:attribute name="family" type="xs:string" use="required"/>
+									<xs:attribute name="bold" type="xs:string" use="required"/>
+									<xs:attribute name="italic" type="xs:string" use="required"/>
+									<xs:attribute name="strikeout" type="xs:string" use="required"/>
+									<xs:attribute name="underline" type="xs:string" use="required"/>
+									<xs:attribute name="color" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="pageWidth" type="xs:unsignedByte" use="required"/>
+						<xs:attribute name="pageHeight" type="xs:unsignedByte" use="required"/>
+						<xs:attribute name="pageImage" type="xs:string" use="required"/>
+						<xs:attribute name="iconLeft" type="xs:unsignedByte" use="required"/>
+						<xs:attribute name="iconTop" type="xs:unsignedByte" use="required"/>
+						<xs:attribute name="LabelBorderWidth" type="xs:unsignedByte" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element maxOccurs="unbounded" name="Page">
+					<xs:complexType>
+						<xs:annotation>
+              <xs:appinfo xdb:repeated="True"/>
+            </xs:annotation>
+            <xs:sequence minOccurs="0">
+							<xs:element maxOccurs="unbounded" name="need">
+								<xs:complexType>
+									<xs:attribute name="msi" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="exe" type="xs:string" use="required"/>
+						<xs:attribute name="icon" type="xs:string" use="required"/>
+						<xs:attribute name="X" type="xs:unsignedShort" use="required"/>
+						<xs:attribute name="Y" type="xs:unsignedShort" use="required"/>
+						<xs:attribute name="Hint" type="xs:string" use="required"/>
+						<xs:attribute name="header" type="xs:string" use="optional"/>
+						<xs:attribute name="bottom" type="xs:string" use="optional"/>
+						<xs:attribute name="html" type="xs:string" use="required"/>
+						<xs:attribute name="installerExe" type="xs:string" use="optional"/>
+						<xs:attribute name="exeAfterInstall" type="xs:string" use="optional"/>
+						<xs:attribute name="regInstallPath" type="xs:string" use="optional"/>
+						<xs:attribute name="Standart" type="xs:boolean" use="optional"/>
+						<xs:attribute name="pageImage" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element maxOccurs="unbounded" name="msi">
+					<xs:complexType>
+						<xs:annotation>
+              <xs:appinfo xdb:repeated="True"/>
+            </xs:annotation>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+						<xs:attribute name="exe" type="xs:string" use="required"/>
+						<xs:attribute name="cmd" type="xs:string" use="required"/>
+						<xs:attribute name="check" type="xs:string" use="optional"/>
+						<xs:attribute name="Confirmation1" type="xs:string" use="optional"/>
+						<xs:attribute name="Confirmation2" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

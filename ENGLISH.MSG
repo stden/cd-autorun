@@ -1,0 +1,10 @@
+%d cells inspected.
+Path of %d cells found.
+Search aborted.
+Press ENTER to restart, ESC to leave.
+                      FINAL STATISTICS
+                Area size was %d x %d cells.
+                             Complete games     Aborted games
+Number of games                    %3d               %3d
+Cells inspected, average           %3d               %3d
+Found path length, average         %3d                 -

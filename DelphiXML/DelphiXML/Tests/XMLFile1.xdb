@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+  <xs:element name="Test" type="TestType"/>
+  <xs:complexType name="TestType"><xs:annotation>
+      <xs:appinfo xdb:identifierName="IXMLTest" xdb:docElement="Test"/>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="HelloWorld" type="xs:integer" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

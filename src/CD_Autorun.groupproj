@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{97AF1447-DC9A-480E-B4C5-B86B7FCEC16C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Autorun.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TestAll.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Autorun">
+			<MSBuild Projects="Autorun.dproj"/>
+		</Target>
+		<Target Name="Autorun:Clean">
+			<MSBuild Targets="Clean" Projects="Autorun.dproj"/>
+		</Target>
+		<Target Name="Autorun:Make">
+			<MSBuild Targets="Make" Projects="Autorun.dproj"/>
+		</Target>
+		<Target Name="TestAll">
+			<MSBuild Projects="TestAll.dproj"/>
+		</Target>
+		<Target Name="TestAll:Clean">
+			<MSBuild Targets="Clean" Projects="TestAll.dproj"/>
+		</Target>
+		<Target Name="TestAll:Make">
+			<MSBuild Targets="Make" Projects="TestAll.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Autorun;TestAll"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Autorun:Clean;TestAll:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Autorun:Make;TestAll:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
