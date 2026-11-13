@@ -1,0 +1,153 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{dadd0f72-d76a-4fcf-860b-e338090f344c}</ProjectGuid>
+			<MainSource>Autorun.dpr</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>..\Autorun.exe</DCC_DependencyCheckOutputName>
+			<ProjectVersion>12.2</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Base>True</Base>
+			<Platform>Win32</Platform>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_UnitSearchPath>C:\Documents and Settings\Admin\Рабочий стол\cd-autorun\AlphaSkins\D2010;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_DependencyCheckOutputName>Autorun.exe</DCC_DependencyCheckOutputName>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_DependencyCheckOutputName>..\Autorun.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_Optimize>False</DCC_Optimize>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_ExeOutput>..\</DCC_ExeOutput>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_MapFile>3</DCC_MapFile>
+			<DCC_DependencyCheckOutputName>..\Autorun.exe</DCC_DependencyCheckOutputName>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+			<Version>7.0</Version>
+			<DCC_ExeOutput>..\</DCC_ExeOutput>
+			<DCC_Define>DEBUG;EUREKALOG;EUREKALOG_VER6;$(DCC_Define)</DCC_Define>
+			<DCC_RangeChecking>True</DCC_RangeChecking>
+			<DCC_WriteableConstants>True</DCC_WriteableConstants>
+			<DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters/>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">363</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">0.0.0.363</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">Autorun.dpr</Source>
+					</Source>
+					<Excluded_Packages>
+						<Excluded_Packages Name="D:\Program Files\RemObjects Software\Everwood\Bin\RemObjects_Everwood_D11.bpl">RemObjects Everwood for Delphi</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<DelphiCompile Include="Autorun.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="MainUnit.pas">
+				<Form>AutorunForm</Form>
+			</DCCReference>
+			<DCCReference Include="DMessageDlg.pas"/>
+			<DCCReference Include="DShowText.pas">
+				<Form>ShowTextForm</Form>
+			</DCCReference>
+			<DCCReference Include="SelectForInstallUnit.pas">
+				<Form>SelectForInstall</Form>
+			</DCCReference>
+			<DCCReference Include="DRegistry.pas"/>
+			<DCCReference Include="Prepare.pas"/>
+			<DCCReference Include="GIFImage.pas"/>
+			<DCCReference Include="Utils.pas"/>
+			<DCCReference Include="..\LuaDelphi\LuaUtils.pas"/>
+			<DCCReference Include="..\LuaDelphi\lauxlib.pas"/>
+			<DCCReference Include="..\LuaDelphi\lua.pas"/>
+			<DCCReference Include="DLua.pas"/>
+			<DCCReference Include="..\LuaDelphi\LuaBase.pas"/>
+			<DCCReference Include="DNetwork.pas"/>
+			<DCCReference Include="SelectDirU.pas"/>
+			<DCCReference Include="WindowsFunc.pas"/>
+			<DCCReference Include="GraphicEx\GraphicCompression.pas"/>
+			<DCCReference Include="GraphicEx\GraphicEx.pas"/>
+			<DCCReference Include="PNG\pngimage.pas"/>
+			<DCCReference Include="InstallWizardUnit.pas">
+				<Form>InstallWizardForm</Form>
+			</DCCReference>
+			<DCCReference Include="InstallAllWizardUnit.pas">
+				<Form>InstallAllWizardForm</Form>
+			</DCCReference>
+			<DCCReference Include="LogUnit.pas">
+				<Form>$R *.res</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj"/>
+	</Project>

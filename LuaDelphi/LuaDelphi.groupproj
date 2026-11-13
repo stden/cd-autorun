@@ -1,0 +1,74 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7adc80c3-d8e6-4716-9c0c-e143d516cd8a}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="appli\appil.dproj" />
+    <Projects Include="debugger\LuaDebug.dproj" />
+    <Projects Include="sample1\sample1.dproj" />
+    <Projects Include="sample2\sample2.dproj" />
+    <Projects Include="sample3\sample3.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="sample1">
+    <MSBuild Projects="sample1\sample1.dproj" Targets="" />
+  </Target>
+  <Target Name="sample1:Clean">
+    <MSBuild Projects="sample1\sample1.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="sample1:Make">
+    <MSBuild Projects="sample1\sample1.dproj" Targets="Make" />
+  </Target>
+  <Target Name="sample2">
+    <MSBuild Projects="sample2\sample2.dproj" Targets="" />
+  </Target>
+  <Target Name="sample2:Clean">
+    <MSBuild Projects="sample2\sample2.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="sample2:Make">
+    <MSBuild Projects="sample2\sample2.dproj" Targets="Make" />
+  </Target>
+  <Target Name="LuaDebug">
+    <MSBuild Projects="debugger\LuaDebug.dproj" Targets="" />
+  </Target>
+  <Target Name="LuaDebug:Clean">
+    <MSBuild Projects="debugger\LuaDebug.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="LuaDebug:Make">
+    <MSBuild Projects="debugger\LuaDebug.dproj" Targets="Make" />
+  </Target>
+  <Target Name="sample3">
+    <MSBuild Projects="sample3\sample3.dproj" Targets="" />
+  </Target>
+  <Target Name="sample3:Clean">
+    <MSBuild Projects="sample3\sample3.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="sample3:Make">
+    <MSBuild Projects="sample3\sample3.dproj" Targets="Make" />
+  </Target>
+  <Target Name="appil">
+    <MSBuild Projects="appli\appil.dproj" Targets="" />
+  </Target>
+  <Target Name="appil:Clean">
+    <MSBuild Projects="appli\appil.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="appil:Make">
+    <MSBuild Projects="appli\appil.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="sample1;sample2;LuaDebug;sample3;appil" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="sample1:Clean;sample2:Clean;LuaDebug:Clean;sample3:Clean;appil:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="sample1:Make;sample2:Make;LuaDebug:Make;sample3:Make;appil:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

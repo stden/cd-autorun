@@ -1,0 +1,1801 @@
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Thu, 11 Feb 2010 19:15:42 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.65
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 11 Feb 2010 19:15:42 +0300
+  1.6 Up Time         : 2 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Thu, 11 Feb 2010 19:15:44 +0300
+  2.2 Address       : 004B0D70
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.65
+  2.5 Type          : EMultiFree
+  2.6 Message       : Multi Free memory leak.
+  2.7 ID            : 9697
+  2.8 Count         : 5
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : LETI
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+--------------------------
+  4.1 Form Class   : TForm
+  4.2 Form Text    : 
+  4.3 Control Class: TForm
+  4.4 Control Text : 
+
+Computer:
+-------------------------------------------------------------------------------
+  5.1 Name          : LETI-1215-07
+  5.2 Total Memory  : 2046 Mb
+  5.3 Free Memory   : 1184 Mb
+  5.4 Total Disk    : 68,36 Gb
+  5.5 Free Disk     : 46,2 Gb
+  5.6 System Up Time: 1 hour, 14 minutes, 48 seconds
+  5.7 Processor     : Intel(R) Core(TM)2 Duo CPU     E8200  @ 2.66GHz
+  5.8 Display Mode  : 1280 x 1024, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : NVIDIA GeForce 8600 GT (driver 6.14.11.6218 - RAM 512 MB)
+  5.11 Printer      : Microsoft XPS Document Writer (driver 6.0.6001.22204)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 2
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------
+  7.1 IP Address: 010.140.000.117
+  7.2 Submask   : 255.255.255.240
+  7.3 Gateway   : 010.140.000.113
+  7.4 DNS 1     : 010.000.000.006
+  7.5 DNS 2     : 010.000.000.005
+  7.6 DHCP      : ON             
+
+Call Stack Information:
+--------------------------------------------------
+|Address |Module|Unit|Class|Procedure/Method|Line|
+--------------------------------------------------
+--------------------------------------------------
+
+Modules Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                |Description                                                   |Version         |Size   |Modified           |Path                                                                                                |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00330000|lua.dll             |                                                              |                |172544 |2010-02-11 18:37:16|C:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe         |                                                              |0.0.0.65        |2862592|2010-02-11 19:15:44|C:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|018B0000|TortoiseSVN.dll     |TortoiseSVN shell extension client                            |1.6.6.17493     |812296 |2009-10-20 00:11:50|C:\Program Files\TortoiseSVN\bin                                                                    |
+|05940000|TortoiseStub.dll    |TortoiseSVN shell extension client                            |1.6.6.17493     |49416  |2009-10-20 00:11:50|C:\Program Files\TortoiseSVN\bin                                                                    |
+|05960000|TortoiseOverlays.dll|TortoiseSVN overlay handler shim                              |1.0.8.16916     |85768  |2009-08-13 18:55:46|C:\Program Files\Common Files\TortoiseOverlays                                                      |
+|10000000|intl3_tsvn.dll      |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME    |0.14.4.0        |63240  |2009-10-20 00:11:22|C:\Program Files\TortoiseSVN\bin                                                                    |
+|5B260000|uxtheme.dll         |Библиотека тем UxTheme (Microsoft)                            |6.0.2900.2180   |219648 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|60AF0000|mslbui.dll          |Надстройка LangageBar                                         |5.1.2600.2180   |25600  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|6EE60000|libaprutil_tsvn.dll |Apache Portable Runtime Utility Library                       |1.3.9.0         |186632 |2009-10-20 00:11:22|C:\Program Files\TortoiseSVN\bin                                                                    |
+|6EEC0000|libapr_tsvn.dll     |Apache Portable Runtime Library                               |1.3.8.0         |128776 |2009-10-20 00:11:24|C:\Program Files\TortoiseSVN\bin                                                                    |
+|71A30000|MSWSOCK.dll         |Расширение поставщика службы API Microsoft Windows Sockets 2.0|5.1.2600.2180   |247296 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll         |Модуль поддержки Windows Socket 2.0 для Windows NT            |5.1.2600.2180   |19968  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll          |Windows Socket 2.0 32-Bit DLL                                 |5.1.2600.2180   |82944  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll         |32-разрядная библиотека Windows Socket                        |5.1.2600.2180   |24576  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll             |Библиотека маршрутизации для нескольких служб доступа         |5.1.2600.2180   |59904  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv        |Драйвер диспетчера очереди Windows                            |5.1.2600.2180   |146944 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll           |Библиотека (DLL) MSCTF-сервера                                |5.1.2600.2180   |294400 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll         |GDIEXT Client DLL                                             |5.1.2600.2180   |4608   |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76360000|imm32.dll           |Windows XP IMM32 API Client DLL                               |5.1.2600.2180   |110080 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll        |Библиотека общих диалоговых окон                              |6.0.2900.2180   |278528 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|765D0000|CSCDLL.dll          |Сетевой агент автономного режима                              |5.1.2600.2180   |102400 |2006-03-02 15:00:00|C:\WINDOWS\System32                                                                                 |
+|76760000|SHFOLDER.dll        |Shell Folder Service                                          |6.0.2900.2180   |25088  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll           |MCI API DLL                                                   |5.1.2600.2180   |177152 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL           |Process Status Helper                                         |5.1.2600.2180   |23040  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76F50000|WLDAP32.dll         |Win32 LDAP API DLL                                            |5.1.2600.2180   |172544 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|76FC0000|CLBCATQ.DLL         |                                                              |2001.12.4414.258|501248 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77040000|COMRes.dll          |                                                              |2001.12.4414.258|797696 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll        |                                                              |5.1.2600.2180   |553472 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|771A0000|WININET.dll         |Расширения Интернета для Win32                                |6.0.2900.2180   |656896 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll        |User Experience Controls Library                              |6.0.2900.2180   |1050624|2006-03-02 15:00:00|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9|
+|774D0000|ole32.dll           |Microsoft OLE для  Windows                                    |5.1.2600.2180   |1281024|2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77910000|SETUPAPI.dll        |Windows Setup API                                             |5.1.2600.2180   |990208 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77A10000|cscui.dll           |Интерфейс кэширования на стороне клиента                      |5.1.2600.2180   |330752 |2006-03-02 15:00:00|C:\WINDOWS\System32                                                                                 |
+|77A70000|CRYPT32.dll         |API32 криптографии                                            |5.131.2600.2180 |600576 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77B10000|MSASN1.dll          |ASN.1 Runtime APIs                                            |5.1.2600.2180   |57344  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77B30000|appHelp.dll         |Application Compatibility Client Library                      |5.1.2600.2180   |126976 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll         |Version Checking and File Installation Libraries              |5.1.2600.2180   |18944  |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll          |Windows NT CRT DLL                                            |7.0.2600.2180   |343040 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77D30000|USER32.dll          |Библиотека клиента USER API Windows XP                        |5.1.2600.2180   |577536 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll        |Расширенная библиотека API Windows 32                         |5.1.2600.2180   |687104 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll          |Remote Procedure Call Runtime                                 |5.1.2600.2180   |581120 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll           |GDI Client DLL                                                |5.1.2600.2180   |278016 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll         |Библиотека небольших программ оболочки                        |6.0.2900.2833   |474112 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|78480000|MSVCP90.dll         |Microsoft® C++ Runtime Library                                |9.0.30729.4148  |569664 |2009-07-12 00:02:00|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e              |
+|78520000|MSVCR90.dll         |Microsoft® C Runtime Library                                  |9.0.30729.4148  |653120 |2009-07-12 00:02:02|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e              |
+|7C800000|kernel32.dll        |Библиотека клиента Windows NT BASE API                        |5.1.2600.2180   |989696 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll           |Системная библиотека NT                                       |5.1.2600.2180   |712192 |2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll         |Общая библиотека оболочки Windows                             |6.0.2900.2180   |8401408|2006-03-02 15:00:00|C:\WINDOWS\system32                                                                                 |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name          |Description                                                                       |Version        |Memory   |Priority    |Threads|Path                                                                                     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System        |                                                                                  |               |290816   |Normal      |86     |                                                                                         |
+|248 |jqs.exe       |Java(TM) Quick Starter Service                                                    |6.0.170.4      |1413120  |Low         |8      |C:\Program Files\Java\jre6\bin                                                           |
+|308 |nvsvc32.exe   |NVIDIA Driver Helper Service, Version 162.18                                      |6.14.11.6218   |4001792  |Normal      |3      |C:\WINDOWS\system32                                                                      |
+|648 |chrome.exe    |Google Chrome                                                                     |               |63950848 |Below-Normal|3      |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|964 |smss.exe      |                                                                                  |               |442368   |Normal      |3      |\SystemRoot\System32                                                                     |
+|1016|csrss.exe     |                                                                                  |               |5877760  |Normal      |13     |C:\WINDOWS\system32                                                                      |
+|1040|winlogon.exe  |                                                                                  |               |1970176  |High        |20     |C:\WINDOWS\system32                                                                      |
+|1084|services.exe  |Приложение служб и контроллеров                                                   |5.1.2600.2180  |5259264  |Normal      |16     |C:\WINDOWS\system32                                                                      |
+|1096|lsass.exe     |LSA Shell (Export Version)                                                        |5.1.2600.2180  |1712128  |Normal      |19     |C:\WINDOWS\system32                                                                      |
+|1172|chrome.exe    |Google Chrome                                                                     |               |32526336 |Normal      |9      |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|1284|svchost.exe   |Generic Host Process for Win32 Services                                           |5.1.2600.2180  |4751360  |Normal      |16     |C:\WINDOWS\system32                                                                      |
+|1368|svchost.exe   |Generic Host Process for Win32 Services                                           |5.1.2600.2180  |4145152  |Normal      |10     |C:\WINDOWS\system32                                                                      |
+|1492|svchost.exe   |Generic Host Process for Win32 Services                                           |5.1.2600.2180  |27897856 |Normal      |61     |C:\WINDOWS\System32                                                                      |
+|1616|svchost.exe   |Generic Host Process for Win32 Services                                           |5.1.2600.2180  |3407872  |Normal      |6      |C:\WINDOWS\system32                                                                      |
+|1732|svchost.exe   |Generic Host Process for Win32 Services                                           |5.1.2600.2180  |4501504  |Normal      |14     |C:\WINDOWS\system32                                                                      |
+|1768|alg.exe       |Application Layer Gateway Service                                                 |5.1.2600.2180  |3440640  |Normal      |6      |C:\WINDOWS\System32                                                                      |
+|1940|spoolsv.exe   |Spooler SubSystem App                                                             |5.1.2600.2180  |4608000  |Normal      |12     |C:\WINDOWS\system32                                                                      |
+|2108|wmiapsrv.exe  |Служба адаптера производительности WMI                                            |5.1.2600.2180  |3502080  |Normal      |3      |C:\WINDOWS\system32\wbem                                                                 |
+|2652|chrome.exe    |Google Chrome                                                                     |               |45625344 |Normal      |18     |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|2728|chrome.exe    |Google Chrome                                                                     |               |7041024  |Below-Normal|3      |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|3044|Explorer.EXE  |Проводник                                                                         |6.0.2900.2180  |32755712 |Normal      |13     |C:\WINDOWS                                                                               |
+|3336|RTHDCPL.EXE   |Realtek HD Audio Control Panel                                                    |2.1.8.9        |22691840 |Normal      |4      |C:\WINDOWS                                                                               |
+|3384|TSVNCache.exe |TortoiseSVN status cache                                                          |1.6.6.17493    |20987904 |Normal      |10     |C:\Program Files\TortoiseSVN\bin                                                         |
+|3532|wscntfy.exe   |Windows Security Center Notification App                                          |5.1.2600.2180  |2093056  |Normal      |1      |C:\WINDOWS\system32                                                                      |
+|3544|RUNDLL32.EXE  |Запуск библиотеки DLL как приложения                                              |5.1.2600.2180  |2891776  |Normal      |1      |C:\WINDOWS\system32                                                                      |
+|3576|chrome.exe    |Google Chrome                                                                     |               |18944000 |Below-Normal|3      |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|3596|GamerOSD.exe  |ASUS GamerOSD                                                                     |1.0.0.2        |6139904  |Normal      |5      |C:\Program Files\ASUS\GamerOSD                                                           |
+|3652|jusched.exe   |Java(TM) Platform SE binary                                                       |6.0.170.4      |4149248  |Normal      |1      |C:\Program Files\Java\jre6\bin                                                           |
+|3692|ctfmon.exe    |CTF Loader                                                                        |5.1.2600.2180  |3125248  |Normal      |1      |C:\WINDOWS\system32                                                                      |
+|3780|DTLite.exe    |DAEMON Tools Lite                                                                 |4.35.5.68      |15998976 |Normal      |3      |C:\Program Files\DAEMON Tools Lite                                                       |
+|3928|Totalcmd.exe  |Total Commander 32 bit international version, file manager replacement for Windows|7.0.4.1        |11091968 |Normal      |5      |C:\Program Files\Total Commander                                                         |
+|4228|BSQLServer.exe|BlackfishSQL Server Launcher                                                      |8.0.3513.24210 |10027008 |Normal      |4      |C:\Program Files\Embarcadero\RAD Studio\7.0\bin                                          |
+|5340|chrome.exe    |Google Chrome                                                                     |               |11870208 |Normal      |3      |C:\Documents and Settings\Admin\Local Settings\Application Data\Google\Chrome\Application|
+|5384|msmsgs.exe    |Windows Messenger                                                                 |4.7.0.3000     |5074944  |Normal      |2      |C:\Program Files\Messenger                                                               |
+|5444|Autorun.exe   |                                                                                  |0.0.0.65       |20017152 |Normal      |1      |C:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                  |
+|5936|bds.exe       |Embarcadero RAD Studio for Windows                                                |14.0.3513.24210|198811648|Normal      |18     |C:\Program Files\Embarcadero\RAD Studio\7.0\Bin                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+------------------------------------------------------------------------------
+004B0D48  push    $004B0D8B                                   ; 'йЂSхялрY]ГЌ@'
+004B0D4D  push    dword ptr fs:[eax]
+004B0D50  mov     fs:[eax], esp
+004B0D53  lea     eax, [ebp-$04]
+004B0D56  mov     edx, [$6601A0]
+004B0D5C  call    Autorun.System._UStrFromLStr
+004B0D61  mov     ecx, [ebp-$04]
+004B0D64  mov     dl, $01
+004B0D66  mov     eax, dword ptr [ExceptionLog.ExceptionLog]
+004B0D6B  call    SysUtils.Exception.Create
+004B0D70  call    Autorun.System._RaiseExcept                 ; <-- EXCEPTION
+004B0D75  xor     eax, eax
+004B0D77  pop     edx
+004B0D78  pop     ecx
+004B0D79  pop     ecx
+004B0D7A  mov     fs:[eax], edx
+004B0D7D  push    $004B0D92                                   ; 'Y]ГЌ@'
+004B0D82  lea     eax, [ebp-$04]
+004B0D85  call    Autorun.System._UStrClr
+004B0D8A  ret
+
+Registers:
+-----------------------------
+EAX: 01C1D060   EDI: 01164060
+EBX: 01C1DE20   ESI: 01C1DE20
+ECX: 00482900   ESP: 0012FEE8
+EDX: 004B0D75   EIP: 004B0D70
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FEE8: 0012FF64   004B0D70: E8 3F 55 F5 FF 33 C0 5A 59 59 64 89 10 68 92 0D  .?U..3.ZYYd..h..
+0012FEEC: 004B0D8B   004B0D80: 4B 00 8D 45 FC E8 02 6E F5 FF C3 E9 80 53 F5 FF  K..E...n.....S..
+0012FEF0: 0012FEF8   004B0D90: EB F0 59 5D C3 8D 40 00 68 18 23 67 00 E8 EA C4  ..Y]..@.h.#g....
+0012FEF4: 01C3352C   004B0DA0: F5 FF C3 90 55 8B EC 6A 00 33 C0 55 68 2B 0E 4B  ....U..j.3.Uh+.K
+0012FEF8: 0012FF00   004B0DB0: 00 64 FF 30 64 89 20 A1 7C 89 66 00 C7 00 F4 03  .d.0d. .|.f.....
+0012FEFC: 004582B7   004B0DC0: 4B 00 A1 38 89 66 00 C7 00 8C 06 4B 00 A1 68 8A  K..8.f.....K..h.
+0012FF00: 0012FF10   004B0DD0: 66 00 C7 00 14 08 4B 00 A1 F4 89 66 00 C7 00 E8  f.....K....f....
+0012FF04: 0045836B   004B0DE0: 0C 4B 00 A1 E0 8C 66 00 C7 00 40 0D 4B 00 8D 45  .K....f...@.K..E
+0012FF08: 02405D09   004B0DF0: FC E8 16 DE FD FF 8B 45 FC E8 0A 65 F5 FF 8B D0  .......E...e....
+0012FF0C: 01C1DCF0   004B0E00: B8 18 23 67 00 E8 E2 4A F6 FF A1 58 8F 66 00 C7  ..#g...J...X.f..
+0012FF10: 0012FF78   004B0E10: 00 98 0D 4B 00 33 C0 5A 59 59 64 89 10 68 32 0E  ...K.3.ZYYd..h2.
+0012FF14: 0040424A   004B0E20: 4B 00 8D 45 FC E8 9A 5C F5 FF C3 E9 E0 52 F5 FF  K..E...\.....R..
+0012FF18: 004056DD   004B0E30: EB F0 59 5D C3 8D 40 00 55 8B EC 33 C9 51 51 51  ..Y]..@.U..3.QQQ
+0012FF1C: 0042C201   004B0E40: 51 51 53 56 8B 75 08 33 C0 55 68 45 0F 4B 00 64  QQSV.u.3.UhE.K.d
+0012FF20: 00405CA1   004B0E50: FF 30 64 89 20 C6 05 28 20 67 00 01 33 DB E8 B5  .0d. ..( g..3...
+0012FF24: 004C5BC3   004B0E60: 34 F5 FF 8B 15 40 EE 40 00 E8 C6 4A F5 FF 84 C0  4....@.@...J....
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 15 Feb 2010 12:53:09 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.128
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 15 Feb 2010 12:53:08 +0300
+  1.6 Up Time         : 0 second
+
+Exception:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 15 Feb 2010 12:53:09 +0300
+  2.2 Address       : 0056A540
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.128
+  2.5 Type          : ERegistryException
+  2.6 Message       : Недопустимый корневой раздел реестра: "" не существует! Должен быть: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, HKEY_PERFORMANCE_DATA, HKEY_CURRENT_CONFIG, HKEY_DYN_DATA.
+  2.7 ID            : 2CB2
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : Autorun - Delphi 2010 - DShowText [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+----------------------------------------------------------------------------------------
+  5.1 Name          : AELLIN
+  5.2 Total Memory  : 2038 Mb
+  5.3 Free Memory   : 1332 Mb
+  5.4 Total Disk    : 122,39 Gb
+  5.5 Free Disk     : 12,44 Gb
+  5.6 System Up Time: 3 days, 14 hours, 36 minutes, 15 seconds
+  5.7 Processor     : Intel(R) Pentium(R) Dual  CPU  T2390  @ 1.86GHz
+  5.8 Display Mode  : 1280 x 800, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Mobile Intel(R) 965 Express Chipset Family (driver 6.14.10.4906)
+  5.11 Printer      : Microsoft Office Document Image Writer Driver (driver 11.3.8166.2)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 192.168.001.101 - 000.000.000.000
+  7.2 Submask   : 255.255.255.000 - 000.000.000.000
+  7.3 Gateway   : 192.168.001.001 - 000.000.000.000
+  7.4 DNS 1     : 087.237.112.010 - 192.168.003.254
+  7.5 DNS 2     : 077.241.040.178 - 172.016.002.001
+  7.6 DHCP      : ON              - OFF            
+
+Call Stack Information:
+------------------------------------------------------------------
+|Address |Module     |Unit         |Class|Procedure/Method|Line  |
+------------------------------------------------------------------
+|*Exception Thread: ID=400; Priority=0; Class=; [Main]           |
+|----------------------------------------------------------------|
+|0056A540|Autorun.exe|DRegistry.pas|     |SplitRegKey     |41[19]|
+|0056A3E4|Autorun.exe|DRegistry.pas|     |SplitRegKey     |22[0] |
+|0056A9C4|Autorun.exe|DRegistry.pas|     |RegValueExists  |67[4] |
+|0056A960|Autorun.exe|DRegistry.pas|     |RegValueExists  |63[0] |
+|00661EA0|Autorun.exe|DRegistry.pas|     |Initialization  |122[1]|
+|00663D18|Autorun.exe|Autorun.dpr  |     |                |33[0] |
+------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                          |Version      |Size    |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll     |                                                     |             |172544  |2010-02-15 12:26:40|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe |                                                     |0.0.0.128    |2903040 |2010-02-15 12:53:10|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|10000000|vksaver.dll |Music download filter for vkontakte.ru               |1.0.0.1      |29184   |2009-09-09 11:15:28|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll |Модуль поддержки Windows Socket 2.0 для Windows NT   |5.1.2600.5512|19968   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                        |5.1.2600.5512|82432   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll |32-разрядная библиотека Windows Socket               |5.1.2600.5512|24576   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll     |Библиотека маршрутизации для нескольких служб доступа|5.1.2600.5512|59904   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv|Драйвер диспетчера очереди Windows                   |5.1.2600.5512|146944  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll   |Библиотека (DLL) MSCTF-сервера                       |5.1.2600.5512|297984  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime|Microsoft Text Frame Work Service IME                |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll |GDIEXT Client DLL                                    |5.1.2600.5512|4608    |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL   |Windows XP IMM32 API Client DLL                      |5.1.2600.5512|110080  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll|Библиотека общих диалоговых окон                     |6.0.2900.5512|279040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll   |MCI API DLL                                          |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL   |Process Status Helper                                |5.1.2600.5512|23040   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll|                                                     |5.1.2600.5512|551936  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll|User Experience Controls Library                     |6.0.2900.5512|1054208 |2008-04-15 15:00:00|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll   |Microsoft OLE для  Windows                           |5.1.2600.5512|1287168 |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll |Version Checking and File Installation Libraries     |5.1.2600.5512|18944   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll  |Windows NT CRT DLL                                   |7.0.2600.5512|343040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll|Расширенная библиотека API Windows 32                |5.1.2600.5512|687616  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll  |Remote Procedure Call Runtime                        |5.1.2600.5512|584704  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll   |GDI Client DLL                                       |5.1.2600.5512|285184  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll |Библиотека небольших программ оболочки               |6.0.2900.2995|499200  |2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll |Security Support Provider Interface                  |5.1.2600.5512|56320   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Библиотека клиента Windows NT BASE API               |5.1.2600.5512|995840  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll   |Системная библиотека NT                              |5.1.2600.5594|710144  |2008-05-05 12:17:30|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll |Общая библиотека оболочки Windows                    |6.0.2900.5512|26688512|2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll  |Библиотека клиента USER API Windows XP               |5.1.2600.5512|579072  |2008-05-20 18:54:56|D:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name            |Description                            |Version        |Memory   |Priority|Threads|Path                                                   |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System          |                                       |               |241664   |Normal  |104    |                                                       |
+|160 |AdobeUpdater.exe|Adobe Updater                          |5.1.1.1113     |7299072  |Normal  |1      |D:\Program Files\Common Files\Adobe\Updater5           |
+|240 |ctfmon.exe      |CTF Loader                             |5.1.2600.5512  |3338240  |Normal  |1      |D:\WINDOWS\system32                                    |
+|504 |RtkBtMnt.exe    |Realtek HD Audio Data Rerouter         |1.0.0.9        |4411392  |Normal  |5      |D:\DOCUME~1\Admin\LOCALS~1\Temp                        |
+|604 |Explorer.EXE    |Проводник                              |6.0.2900.5512  |24580096 |Normal  |16     |D:\WINDOWS                                             |
+|692 |TSVNCache.exe   |TortoiseSVN status cache               |1.6.6.17493    |21819392 |Normal  |9      |D:\Program Files\TortoiseSVN\bin                       |
+|720 |spoolsv.exe     |Spooler SubSystem App                  |5.1.2600.5512  |6848512  |Normal  |11     |D:\WINDOWS\system32                                    |
+|756 |smss.exe        |                                       |               |417792   |Normal  |3      |\SystemRoot\System32                                   |
+|828 |dmaster.exe     |Download Master                        |5.5.14.1175    |4100096  |Normal  |4      |D:\Program Files\Download Master                       |
+|1076|igfxtray.exe    |igfxTray Module                        |6.14.10.4906   |3547136  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1084|hkcmd.exe       |hkcmd Module                           |6.14.10.4906   |3497984  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1108|igfxpers.exe    |persistence Module                     |6.14.10.4906   |3170304  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1124|igfxsrvc.exe    |igfxsrvc Module                        |6.14.10.4906   |3477504  |Normal  |3      |D:\WINDOWS\system32                                    |
+|1136|RTHDCPL.EXE     |Realtek HD Audio Control Panel         |2.2.0.2        |23580672 |Normal  |4      |D:\WINDOWS                                             |
+|1308|csrss.exe       |                                       |               |3100672  |Normal  |12     |D:\WINDOWS\system32                                    |
+|1332|winlogon.exe    |                                       |               |4767744  |High    |19     |D:\WINDOWS\system32                                    |
+|1384|services.exe    |Приложение служб и контроллеров        |5.1.2600.5512  |7970816  |Normal  |16     |D:\WINDOWS\system32                                    |
+|1428|lsass.exe       |LSA Shell (Export Version)             |5.1.2600.5512  |704512   |Normal  |20     |D:\WINDOWS\system32                                    |
+|1576|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |5672960  |Normal  |16     |D:\WINDOWS\system32                                    |
+|1588|MDM.EXE         |Machine Debug Manager                  |7.0.9466.0     |3014656  |Normal  |4      |D:\Program Files\Common Files\Microsoft Shared\VS7DEBUG|
+|1708|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |6406144  |Normal  |11     |D:\WINDOWS\system32                                    |
+|1756|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |33681408 |Normal  |66     |D:\WINDOWS\System32                                    |
+|1776|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |6414336  |Normal  |8      |D:\WINDOWS\system32                                    |
+|1928|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |4378624  |Normal  |6      |D:\WINDOWS\system32                                    |
+|1984|winampa.exe     |                                       |               |2228224  |Normal  |1      |D:\Program Files\Winamp                                |
+|1996|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |4603904  |Normal  |15     |D:\WINDOWS\system32                                    |
+|2284|Autorun.exe     |                                       |0.0.0.128      |6295552  |Normal  |2      |D:\Documents and Settings\Admin\Рабочий стол\cd-autorun|
+|3016|firefox.exe     |Firefox                                |1.9.1.3642     |107859968|Normal  |17     |D:\Program Files\Mozilla Firefox                       |
+|4240|BSQLServer.exe  |BlackfishSQL Server Launcher           |8.0.3513.24210 |10948608 |Normal  |4      |D:\Program Files\Embarcadero\RAD Studio\7.0\bin        |
+|5748|bds.exe         |Embarcadero RAD Studio for Windows     |14.0.3513.24210|96034816 |Normal  |17     |D:\Program Files\Embarcadero\RAD Studio\7.0\Bin        |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-----------------------------------------------------------------------
+; DRegistry.SplitRegKey (Line=41 - Offset=19)
+; -------------------------------------------
+0056A515  push    $0056A738                           ; '"'
+0056A51A  push    $0056A768                           ; '..>.;.6.5.=. '
+0056A51F  push    $0056A804                           ; 'H'
+0056A524  lea     eax, [ebp-$10]
+0056A527  mov     edx, $00000005                      ; ''...
+0056A52C  call    Autorun.System._UStrCatN
+0056A531  mov     ecx, [ebp-$10]
+0056A534  mov     dl, $01
+0056A536  mov     eax, dword ptr [Registry.Registry]
+0056A53B  call    SysUtils.Exception.Create
+0056A540  call    Autorun.System._RaiseExcept         ; <-- EXCEPTION
+;
+; Line=44 - Offset=22
+; -------------------
+0056A545  xor     eax, eax
+0056A547  pop     edx
+0056A548  pop     ecx
+0056A549  pop     ecx
+0056A54A  mov     fs:[eax], edx
+0056A54D  push    $0056A56A                           ; '‹Г^[‹е]Г'
+0056A552  lea     eax, [ebp-$10]
+0056A555  call    Autorun.System._UStrClr
+0056A55A  lea     eax, [ebp-$04]
+0056A55D  call    Autorun.System._UStrClr
+
+Registers:
+-----------------------------
+EAX: 0116D6D0   EDI: 000000C8
+EBX: 00000000   ESI: 00000000
+ECX: 004BB900   ESP: 0012FF14
+EDX: 0056A545   EIP: 0056A540
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FF14: 0012FF40   0056A540: E8 6F BD E9 FF 33 C0 5A 59 59 64 89 10 68 6A A5  .o...3.ZYYd..hj.
+0012FF18: 0056A563   0056A550: 56 00 8D 45 F0 E8 32 D6 E9 FF 8D 45 FC E8 2A D6  V..E..2....E..*.
+0012FF1C: 0012FF38   0056A560: E9 FF C3 E9 A8 BB E9 FF EB E8 8B C3 5E 5B 8B E5  ............^[..
+0012FF20: 00661E90   0056A570: 5D C3 00 00 B0 04 02 00 FF FF FF FF 01 00 00 00  ]...............
+0012FF24: 00000063   0056A580: 5C 00 00 00 B0 04 02 00 FF FF FF FF 11 00 00 00  \...............
+0012FF28: 01184A0C   0056A590: 48 00 4B 00 45 00 59 00 5F 00 43 00 4C 00 41 00  H.K.E.Y._.C.L.A.
+0012FF2C: 0112FF4C   0056A5A0: 53 00 53 00 45 00 53 00 5F 00 52 00 4F 00 4F 00  S.S.E.S._.R.O.O.
+0012FF30: 0012FF60   0056A5B0: 54 00 00 00 B0 04 02 00 FF FF FF FF 11 00 00 00  T...............
+0012FF34: 00000000   0056A5C0: 48 00 4B 00 45 00 59 00 5F 00 43 00 55 00 52 00  H.K.E.Y._.C.U.R.
+0012FF38: 0012FF6C   0056A5D0: 52 00 45 00 4E 00 54 00 5F 00 55 00 53 00 45 00  R.E.N.T._.U.S.E.
+0012FF3C: 0056A9C9   0056A5E0: 52 00 00 00 B0 04 02 00 FF FF FF FF 12 00 00 00  R...............
+0012FF40: 0012FF4C   0056A5F0: 48 00 4B 00 45 00 59 00 5F 00 4C 00 4F 00 43 00  H.K.E.Y._.L.O.C.
+0012FF44: 0056AA2B   0056A600: 41 00 4C 00 5F 00 4D 00 41 00 43 00 48 00 49 00  A.L._.M.A.C.H.I.
+0012FF48: 0012FF6C   0056A610: 4E 00 45 00 00 00 00 00 B0 04 02 00 FF FF FF FF  N.E.............
+0012FF4C: 0012FF7C   0056A620: 0A 00 00 00 48 00 4B 00 45 00 59 00 5F 00 55 00  ....H.K.E.Y._.U.
+0012FF50: 0056AA4D   0056A630: 53 00 45 00 52 00 53 00 00 00 00 00 B0 04 02 00  S.E.R.S.........
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 15 Feb 2010 12:56:31 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.132
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 15 Feb 2010 12:56:30 +0300
+  1.6 Up Time         : 0 second
+
+Exception:
+------------------------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 15 Feb 2010 12:56:31 +0300
+  2.2 Address       : 006630C9
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.132
+  2.5 Type          : EAssertionFailed
+  2.6 Message       : Assertion failure (D:\Documents and Settings\Admin\Рабочий стол\cd-autorun\src\DRegistry.pas, line 124).
+  2.7 ID            : 1584
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+----------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : Autorun - Delphi 2010 - Autorun.dproj [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+----------------------------------------------------------------------------------------
+  5.1 Name          : AELLIN
+  5.2 Total Memory  : 2038 Mb
+  5.3 Free Memory   : 1302 Mb
+  5.4 Total Disk    : 122,39 Gb
+  5.5 Free Disk     : 12,44 Gb
+  5.6 System Up Time: 3 days, 14 hours, 39 minutes, 37 seconds
+  5.7 Processor     : Intel(R) Pentium(R) Dual  CPU  T2390  @ 1.86GHz
+  5.8 Display Mode  : 1280 x 800, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Mobile Intel(R) 965 Express Chipset Family (driver 6.14.10.4906)
+  5.11 Printer      : Microsoft Office Document Image Writer Driver (driver 11.3.8166.2)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 192.168.001.101 - 000.000.000.000
+  7.2 Submask   : 255.255.255.000 - 000.000.000.000
+  7.3 Gateway   : 192.168.001.001 - 000.000.000.000
+  7.4 DNS 1     : 087.237.112.010 - 192.168.003.254
+  7.5 DNS 2     : 077.241.040.178 - 172.016.002.001
+  7.6 DHCP      : ON              - OFF            
+
+Call Stack Information:
+------------------------------------------------------------------
+|Address |Module     |Unit         |Class|Procedure/Method|Line  |
+------------------------------------------------------------------
+|*Exception Thread: ID=3392; Priority=0; Class=; [Main]          |
+|----------------------------------------------------------------|
+|006630C9|Autorun.exe|DRegistry.pas|     |Initialization  |124[3]|
+|00663E30|Autorun.exe|Autorun.dpr  |     |                |33[0] |
+------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                          |Version      |Size    |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll     |                                                     |             |172544  |2010-02-15 12:26:40|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe |                                                     |0.0.0.132    |2903552 |2010-02-15 12:56:32|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|10000000|vksaver.dll |Music download filter for vkontakte.ru               |1.0.0.1      |29184   |2009-09-09 11:15:28|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll |Модуль поддержки Windows Socket 2.0 для Windows NT   |5.1.2600.5512|19968   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                        |5.1.2600.5512|82432   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll |32-разрядная библиотека Windows Socket               |5.1.2600.5512|24576   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll     |Библиотека маршрутизации для нескольких служб доступа|5.1.2600.5512|59904   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv|Драйвер диспетчера очереди Windows                   |5.1.2600.5512|146944  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll   |Библиотека (DLL) MSCTF-сервера                       |5.1.2600.5512|297984  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime|Microsoft Text Frame Work Service IME                |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll |GDIEXT Client DLL                                    |5.1.2600.5512|4608    |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL   |Windows XP IMM32 API Client DLL                      |5.1.2600.5512|110080  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll|Библиотека общих диалоговых окон                     |6.0.2900.5512|279040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll   |MCI API DLL                                          |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL   |Process Status Helper                                |5.1.2600.5512|23040   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll|                                                     |5.1.2600.5512|551936  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll|User Experience Controls Library                     |6.0.2900.5512|1054208 |2008-04-15 15:00:00|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll   |Microsoft OLE для  Windows                           |5.1.2600.5512|1287168 |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll |Version Checking and File Installation Libraries     |5.1.2600.5512|18944   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll  |Windows NT CRT DLL                                   |7.0.2600.5512|343040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll|Расширенная библиотека API Windows 32                |5.1.2600.5512|687616  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll  |Remote Procedure Call Runtime                        |5.1.2600.5512|584704  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll   |GDI Client DLL                                       |5.1.2600.5512|285184  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll |Библиотека небольших программ оболочки               |6.0.2900.2995|499200  |2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll |Security Support Provider Interface                  |5.1.2600.5512|56320   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Библиотека клиента Windows NT BASE API               |5.1.2600.5512|995840  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll   |Системная библиотека NT                              |5.1.2600.5594|710144  |2008-05-05 12:17:30|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll |Общая библиотека оболочки Windows                    |6.0.2900.5512|26688512|2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll  |Библиотека клиента USER API Windows XP               |5.1.2600.5512|579072  |2008-05-20 18:54:56|D:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name            |Description                            |Version        |Memory   |Priority|Threads|Path                                                   |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System          |                                       |               |241664   |Normal  |103    |                                                       |
+|160 |AdobeUpdater.exe|Adobe Updater                          |5.1.1.1113     |7299072  |Normal  |1      |D:\Program Files\Common Files\Adobe\Updater5           |
+|240 |ctfmon.exe      |CTF Loader                             |5.1.2600.5512  |3342336  |Normal  |1      |D:\WINDOWS\system32                                    |
+|504 |RtkBtMnt.exe    |Realtek HD Audio Data Rerouter         |1.0.0.9        |4427776  |Normal  |5      |D:\DOCUME~1\Admin\LOCALS~1\Temp                        |
+|604 |Explorer.EXE    |Проводник                              |6.0.2900.5512  |26038272 |Normal  |15     |D:\WINDOWS                                             |
+|692 |TSVNCache.exe   |TortoiseSVN status cache               |1.6.6.17493    |21856256 |Normal  |10     |D:\Program Files\TortoiseSVN\bin                       |
+|720 |spoolsv.exe     |Spooler SubSystem App                  |5.1.2600.5512  |6864896  |Normal  |13     |D:\WINDOWS\system32                                    |
+|756 |smss.exe        |                                       |               |417792   |Normal  |3      |\SystemRoot\System32                                   |
+|828 |dmaster.exe     |Download Master                        |5.5.14.1175    |4214784  |Normal  |4      |D:\Program Files\Download Master                       |
+|1076|igfxtray.exe    |igfxTray Module                        |6.14.10.4906   |3547136  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1084|hkcmd.exe       |hkcmd Module                           |6.14.10.4906   |3497984  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1108|igfxpers.exe    |persistence Module                     |6.14.10.4906   |3170304  |Normal  |2      |D:\WINDOWS\system32                                    |
+|1124|igfxsrvc.exe    |igfxsrvc Module                        |6.14.10.4906   |3477504  |Normal  |3      |D:\WINDOWS\system32                                    |
+|1136|RTHDCPL.EXE     |Realtek HD Audio Control Panel         |2.2.0.2        |23592960 |Normal  |4      |D:\WINDOWS                                             |
+|1308|csrss.exe       |                                       |               |3395584  |Normal  |12     |D:\WINDOWS\system32                                    |
+|1332|winlogon.exe    |                                       |               |4767744  |High    |19     |D:\WINDOWS\system32                                    |
+|1384|services.exe    |Приложение служб и контроллеров        |5.1.2600.5512  |7970816  |Normal  |16     |D:\WINDOWS\system32                                    |
+|1428|lsass.exe       |LSA Shell (Export Version)             |5.1.2600.5512  |1388544  |Normal  |21     |D:\WINDOWS\system32                                    |
+|1576|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |5672960  |Normal  |16     |D:\WINDOWS\system32                                    |
+|1588|MDM.EXE         |Machine Debug Manager                  |7.0.9466.0     |3014656  |Normal  |4      |D:\Program Files\Common Files\Microsoft Shared\VS7DEBUG|
+|1708|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |6406144  |Normal  |11     |D:\WINDOWS\system32                                    |
+|1756|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |33665024 |Normal  |65     |D:\WINDOWS\System32                                    |
+|1776|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |6422528  |Normal  |8      |D:\WINDOWS\system32                                    |
+|1928|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |4378624  |Normal  |6      |D:\WINDOWS\system32                                    |
+|1984|winampa.exe     |                                       |               |2228224  |Normal  |1      |D:\Program Files\Winamp                                |
+|1996|svchost.exe     |Generic Host Process for Win32 Services|5.1.2600.5512  |4603904  |Normal  |15     |D:\WINDOWS\system32                                    |
+|2644|Autorun.exe     |                                       |0.0.0.132      |6287360  |Normal  |2      |D:\Documents and Settings\Admin\Рабочий стол\cd-autorun|
+|3016|firefox.exe     |Firefox                                |1.9.1.3642     |107851776|Normal  |16     |D:\Program Files\Mozilla Firefox                       |
+|4240|BSQLServer.exe  |BlackfishSQL Server Launcher           |8.0.3513.24210 |10948608 |Normal  |4      |D:\Program Files\Embarcadero\RAD Studio\7.0\bin        |
+|4932|regedit.exe     |Редактор реестра                       |5.1.2600.5512  |10678272 |Normal  |6      |D:\WINDOWS                                             |
+|5116|Far.exe         |File and archive manager               |1.71.3.2126    |11005952 |Normal  |3      |D:\Program Files\Far                                   |
+|5248|notepad.EXE     |Блокнот                                |5.1.2600.5512  |3002368  |Normal  |1      |D:\WINDOWS\system32                                    |
+|5748|bds.exe         |Embarcadero RAD Studio for Windows     |14.0.3513.24210|107286528|Normal  |20     |D:\Program Files\Embarcadero\RAD Studio\7.0\Bin        |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+----------------------------------------------------------------------
+; DRegistry.Initialization (Line=123 - Offset=2)
+; ----------------------------------------------
+0066309D  mov     edx, $00663124                       ; 'D'
+006630A2  mov     eax, $006631C4                       ; 'A'
+006630A7  call    Autorun.System._Assert
+;
+; Line=124 - Offset=3
+; -------------------
+006630AC  mov     eax, $00663248                       ; 'H'
+006630B1  call    DRegistry.RegKeyExists
+006630B6  test    al, al
+006630B8  jnz     DRegistry.Initialization (Line=125)
+006630BA  mov     ecx, $0000007C                       ; ''...
+006630BF  mov     edx, $00663124                       ; 'D'
+006630C4  mov     eax, $006631C4                       ; 'A'
+006630C9  call    Autorun.System._Assert               ; <-- EXCEPTION
+;
+; Line=125 - Offset=4
+; -------------------
+006630CE  pop     ebp
+006630CF  ret
+
+Registers:
+-----------------------------
+EAX: 0116D570   EDI: 000000C8
+EBX: 00000063   ESI: 0066305C
+ECX: 00410500   ESP: 0012FF74
+EDX: 006630CE   EIP: 006630C9
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FF74: 0012FF98   006630C9: E8 22 39 DA FF 5D C3 B0 04 02 00 FF FF FF FF 1D  ."9..]..........
+0012FF78: 004065F4   006630D9: 00 00 00 48 00 4B 00 45 00 59 00 5F 00 43 00 55  ...H.K.E.Y._.C.U
+0012FF7C: 0012FFB0   006630E9: 00 52 00 52 00 45 00 4E 00 54 00 5F 00 55 00 53  .R.R.E.N.T._.U.S
+0012FF80: 00406602   006630F9: 00 45 00 52 00 5C 00 45 00 6E 00 76 00 69 00 72  .E.R.\.E.n.v.i.r
+0012FF84: 0012FF98   00663109: 00 6F 00 6E 00 6D 00 65 00 6E 00 74 00 00 00 B0  .o.n.m.e.n.t....
+0012FF88: 0AF835E0   00663119: 04 02 00 FF FF FF FF 49 00 00 00 44 00 3A 00 5C  .......I...D.:.\
+0012FF8C: 0FFFF290   00663129: 00 44 00 6F 00 63 00 75 00 6D 00 65 00 6E 00 74  .D.o.c.u.m.e.n.t
+0012FF90: 00659C64   00663139: 00 73 00 20 00 61 00 6E 00 64 00 20 00 53 00 65  .s. .a.n.d. .S.e
+0012FF94: 00659C7C   00663149: 00 74 00 74 00 69 00 6E 00 67 00 73 00 5C 00 41  .t.t.i.n.g.s.\.A
+0012FF98: 0012FFC0   00663159: 00 64 00 6D 00 69 00 6E 00 5C 00 20 04 30 04 31  .d.m.i.n.\. .0.1
+0012FF9C: 00406660   00663169: 04 3E 04 47 04 38 04 39 04 20 00 41 04 42 04 3E  .>.G.8.9. .A.B.>
+0012FFA0: 0040B6AB   00663179: 04 3B 04 5C 00 63 00 64 00 2D 00 61 00 75 00 74  .;.\.c.d.-.a.u.t
+0012FFA4: 7FFD5000   00663189: 00 6F 00 72 00 75 00 6E 00 5C 00 73 00 72 00 63  .o.r.u.n.\.s.r.c
+0012FFA8: 00663E35   00663199: 00 5C 00 44 00 52 00 65 00 67 00 69 00 73 00 74  .\.D.R.e.g.i.s.t
+0012FFAC: 7FFD5000   006631A9: 00 72 00 79 00 2E 00 70 00 61 00 73 00 00 00 B0  .r.y...p.a.s....
+0012FFB0: 0012FFE0   006631B9: 04 02 00 FF FF FF FF 11 00 00 00 41 00 73 00 73  ...........A.s.s
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 15 Feb 2010 14:05:04 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.133
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 15 Feb 2010 14:05:03 +0300
+  1.6 Up Time         : 0 second
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Mon, 15 Feb 2010 14:05:04 +0300
+  2.2 Address       : 00626A92
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.133
+  2.5 Type          : ERangeError
+  2.6 Message       : Range check error.
+  2.7 ID            : 7F20
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : Autorun - Delphi 2010 - DRegistry [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+----------------------------------------------------------------------------------------
+  5.1 Name          : AELLIN
+  5.2 Total Memory  : 2038 Mb
+  5.3 Free Memory   : 1546 Mb
+  5.4 Total Disk    : 122,39 Gb
+  5.5 Free Disk     : 12,47 Gb
+  5.6 System Up Time: 23 minutes, 1 second
+  5.7 Processor     : Intel(R) Pentium(R) Dual  CPU  T2390  @ 1.86GHz
+  5.8 Display Mode  : 1280 x 800, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Mobile Intel(R) 965 Express Chipset Family (driver 6.14.10.4906)
+  5.11 Printer      : Microsoft Office Document Image Writer Driver (driver 11.3.8166.2)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 000.000.000.000
+  7.2 Submask   : 000.000.000.000 - 000.000.000.000
+  7.3 Gateway   : 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 000.000.000.000 - 192.168.003.254
+  7.5 DNS 2     : 000.000.000.000 - 172.016.002.001
+  7.6 DHCP      : ON              - OFF            
+
+Call Stack Information:
+------------------------------------------------------------------
+|Address |Module     |Unit         |Class|Procedure/Method|Line  |
+------------------------------------------------------------------
+|Running Thread: ID=2708; Priority=0; Class=; [Main]             |
+|----------------------------------------------------------------|
+|00626A92|Autorun.exe|DRegistry.pas|     |RegKeyExists    |61[12]|
+|006269CC|Autorun.exe|DRegistry.pas|     |RegKeyExists    |49[0] |
+|006630B1|Autorun.exe|DRegistry.pas|     |Initialization  |138[3]|
+|00663E30|Autorun.exe|Autorun.dpr  |     |                |33[0] |
+------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                          |Version      |Size    |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll     |                                                     |             |172544  |2010-02-15 12:26:40|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe |                                                     |0.0.0.133    |2904064 |2010-02-15 14:05:04|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|10000000|vksaver.dll |Music download filter for vkontakte.ru               |1.0.0.1      |29184   |2009-09-09 11:15:28|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll |Модуль поддержки Windows Socket 2.0 для Windows NT   |5.1.2600.5512|19968   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                        |5.1.2600.5512|82432   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll |32-разрядная библиотека Windows Socket               |5.1.2600.5512|24576   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll     |Библиотека маршрутизации для нескольких служб доступа|5.1.2600.5512|59904   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv|Драйвер диспетчера очереди Windows                   |5.1.2600.5512|146944  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll   |Библиотека (DLL) MSCTF-сервера                       |5.1.2600.5512|297984  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime|Microsoft Text Frame Work Service IME                |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll |GDIEXT Client DLL                                    |5.1.2600.5512|4608    |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL   |Windows XP IMM32 API Client DLL                      |5.1.2600.5512|110080  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll|Библиотека общих диалоговых окон                     |6.0.2900.5512|279040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll   |MCI API DLL                                          |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL   |Process Status Helper                                |5.1.2600.5512|23040   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll|                                                     |5.1.2600.5512|551936  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll|User Experience Controls Library                     |6.0.2900.5512|1054208 |2008-04-15 15:00:00|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll   |Microsoft OLE для  Windows                           |5.1.2600.5512|1287168 |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll |Version Checking and File Installation Libraries     |5.1.2600.5512|18944   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll  |Windows NT CRT DLL                                   |7.0.2600.5512|343040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll|Расширенная библиотека API Windows 32                |5.1.2600.5512|687616  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll  |Remote Procedure Call Runtime                        |5.1.2600.5512|584704  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll   |GDI Client DLL                                       |5.1.2600.5512|285184  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll |Библиотека небольших программ оболочки               |6.0.2900.2995|499200  |2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll |Security Support Provider Interface                  |5.1.2600.5512|56320   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Библиотека клиента Windows NT BASE API               |5.1.2600.5512|995840  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll   |Системная библиотека NT                              |5.1.2600.5594|710144  |2008-05-05 12:17:30|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll |Общая библиотека оболочки Windows                    |6.0.2900.5512|26688512|2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll  |Библиотека клиента USER API Windows XP               |5.1.2600.5512|579072  |2008-05-20 18:54:56|D:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name          |Description                            |Version        |Memory   |Priority|Threads|Path                                                   |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System        |                                       |               |241664   |Normal  |91     |                                                       |
+|504 |smss.exe      |                                       |               |421888   |Normal  |3      |\SystemRoot\System32                                   |
+|776 |Explorer.EXE  |Проводник                              |6.0.2900.5512  |31232000 |Normal  |15     |D:\WINDOWS                                             |
+|812 |Autorun.exe   |                                       |0.0.0.133      |6209536  |Normal  |2      |D:\Documents and Settings\Admin\Рабочий стол\cd-autorun|
+|852 |csrss.exe     |                                       |               |4046848  |Normal  |12     |D:\WINDOWS\system32                                    |
+|876 |winlogon.exe  |                                       |               |2428928  |High    |19     |D:\WINDOWS\system32                                    |
+|920 |services.exe  |Приложение служб и контроллеров        |5.1.2600.5512  |5357568  |Normal  |17     |D:\WINDOWS\system32                                    |
+|940 |lsass.exe     |LSA Shell (Export Version)             |5.1.2600.5512  |1327104  |Normal  |20     |D:\WINDOWS\system32                                    |
+|1088|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |5664768  |Normal  |17     |D:\WINDOWS\system32                                    |
+|1204|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4448256  |Normal  |11     |D:\WINDOWS\system32                                    |
+|1244|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |24612864 |Normal  |64     |D:\WINDOWS\System32                                    |
+|1352|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |3059712  |Normal  |4      |D:\WINDOWS\system32                                    |
+|1412|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4485120  |Normal  |13     |D:\WINDOWS\system32                                    |
+|1616|spoolsv.exe   |Spooler SubSystem App                  |5.1.2600.5512  |6803456  |Normal  |11     |D:\WINDOWS\system32                                    |
+|1736|ctfmon.exe    |CTF Loader                             |5.1.2600.5512  |3235840  |Normal  |1      |D:\WINDOWS\system32                                    |
+|1804|BSQLServer.exe|BlackfishSQL Server Launcher           |8.0.3513.24210 |11051008 |Normal  |4      |D:\Program Files\Embarcadero\RAD Studio\7.0\bin        |
+|1940|MDM.EXE       |Machine Debug Manager                  |7.0.9466.0     |2924544  |Normal  |4      |D:\Program Files\Common Files\Microsoft Shared\VS7DEBUG|
+|1968|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4902912  |Normal  |5      |D:\WINDOWS\system32                                    |
+|2416|bds.exe       |Embarcadero RAD Studio for Windows     |14.0.3513.24210|104853504|Normal  |18     |D:\Program Files\Embarcadero\RAD Studio\7.0\Bin        |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+----------------------------------------------------------------------
+; DRegistry.RegKeyExists (Line=61 - Offset=12)
+; --------------------------------------------
+00626A76  sub     esi, +$01
+00626A79  jno     DRegistry.RegKeyExists (Line=61)
+00626A7B  call    Autorun.System._IntOver
+00626A80  lea     eax, [ebp-$08]
+00626A83  call    Autorun.System._EnsureUnicodeString
+00626A88  dec     esi
+00626A89  test    eax, eax
+00626A8B  jz      DRegistry.RegKeyExists (Line=61)
+00626A8D  cmp     esi, [eax-$04]
+00626A90  jb      DRegistry.RegKeyExists (Line=61)
+00626A92  call    Autorun.System._BoundErr             ; <-- EXCEPTION
+00626A97  inc     esi
+00626A98  cmp     word ptr [eax+esi*2-$02], +$5C
+00626A9E  jnz     DRegistry.RegKeyExists (Line=61)
+00626AA0  jmp     DRegistry.RegKeyExists (Line=62)
+;
+; Line=62 - Offset=13
+; -------------------
+00626AA2  add     ebx, +$01
+00626AA5  jno     DRegistry.RegKeyExists (Line=62)
+00626AA7  call    Autorun.System._IntOver
+00626AAC  lea     eax, [ebp-$08]
+00626AAF  call    Autorun.System._EnsureUnicodeString
+00626AB4  dec     ebx
+
+Registers:
+-----------------------------
+EAX: 0116D830   EDI: 000000C8
+EBX: 00626A97   ESI: 00626A97
+ECX: 0040FC00   ESP: 0012FF20
+EDX: 00626A97   EIP: 00626A92
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FF20: 00000004   00626A92: E8 41 EB DD FF 46 66 83 7C 70 FE 5C 75 D6 EB 0A  .A...Ff.|p.\u...
+0012FF24: 004043D8   00626AA2: 83 C3 01 71 05 E8 34 EB DD FF 8D 45 F8 E8 0C 02  ...q..4....E....
+0012FF28: FFFFFFFF   00626AB2: DE FF 4B 85 C0 74 05 3B 58 FC 72 05 E8 15 EB DD  ..K..t.;X.r.....
+0012FF2C: 00000003   00626AC2: FF 43 66 83 7C 58 FE 5C 74 11 8D 45 F8 E8 EC 01  .Cf.|X.\t..E....
+0012FF30: 00626A97   00626AD2: DE FF E8 43 14 DE FF 3B D8 7C C5 8D 45 F4 50 8B  ...C...;.|..E.P.
+0012FF34: 0012FF40   00626AE2: CE 83 E9 01 71 05 E8 F3 EA DD FF BA 01 00 00 00  ....q...........
+0012FF38: 00626B3D   00626AF2: 8B 45 F8 E8 F2 17 DE FF CC 45 F0 50 8B D6 83 C2  .E.......E.P....
+0012FF3C: 0012FF6C   00626B02: 01 71 05 E8 D6 EA DD FF B9 FF FF FF 7F 8B 45 F8  .q............E.
+0012FF40: 0012FF7C   00626B12: E8 D5 17 DE FF 33 C9 8B 55 F8 8B 45 E8 E8 28 64  .....3..U..E..(d
+0012FF44: 00626B5F   00626B22: E9 FF 88 45 EF 33 C0 5A 59 59 64 89 10 68 44 6B  ...E.3.ZYYd..hDk
+0012FF48: 0012FF6C   00626B32: 62 00 8B 45 E8 E8 DC EB DD FF C3 E9 CE F5 DD FF  b..E............
+0012FF4C: 0066305C   00626B42: EB F0 33 C0 5A 59 59 64 89 10 68 66 6B 62 00 8D  ..3.ZYYd..hfkb..
+0012FF50: 00000063   00626B52: 45 F0 BA 04 00 00 00 E8 36 10 DE FF C3 E9 AC F5  E.......6.......
+0012FF54: 0116D6D0   00626B62: DD FF EB EB 0F B6 45 EF 5E 5B 8B E5 5D C3 B0 04  ......E.^[..]...
+0012FF58: 006624B5   00626B72: 02 00 FF FF FF FF 01 00 00 00 2A 00 00 00 55 8B  ..........*...U.
+0012FF5C: 00000000   00626B82: EC 83 C4 EC 33 C9 89 4D F4 89 55 F8 89 45 FC 8B  ....3..M..U..E..
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 15 Feb 2010 14:13:42 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.145
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 15 Feb 2010 14:13:41 +0300
+  1.6 Up Time         : 0 second
+
+Exception:
+-------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 15 Feb 2010 14:13:42 +0300
+  2.2 Address       : 004BD4AB
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.145
+  2.5 Type          : EAccessViolation
+  2.6 Message       : Access violation at address 004BD4AB in module 'Autorun.exe'. Read of address 000000C8.
+  2.7 ID            : 1210
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : Autorun - Delphi 2010 - DRegistry [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+----------------------------------------------------------------------------------------
+  5.1 Name          : AELLIN
+  5.2 Total Memory  : 2038 Mb
+  5.3 Free Memory   : 1511 Mb
+  5.4 Total Disk    : 122,39 Gb
+  5.5 Free Disk     : 12,47 Gb
+  5.6 System Up Time: 31 minutes, 39 seconds
+  5.7 Processor     : Intel(R) Pentium(R) Dual  CPU  T2390  @ 1.86GHz
+  5.8 Display Mode  : 1280 x 800, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Mobile Intel(R) 965 Express Chipset Family (driver 6.14.10.4906)
+  5.11 Printer      : Microsoft Office Document Image Writer Driver (driver 11.3.8166.2)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 000.000.000.000
+  7.2 Submask   : 000.000.000.000 - 000.000.000.000
+  7.3 Gateway   : 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 000.000.000.000 - 192.168.003.254
+  7.5 DNS 2     : 000.000.000.000 - 172.016.002.001
+  7.6 DHCP      : ON              - OFF            
+
+Call Stack Information:
+------------------------------------------------------------------
+|Address |Module     |Unit         |Class|Procedure/Method|Line  |
+------------------------------------------------------------------
+|Running Thread: ID=672; Priority=0; Class=; [Main]              |
+|----------------------------------------------------------------|
+|00626B2F|Autorun.exe|DRegistry.pas|     |RegKeyExists    |67[17]|
+|006269CC|Autorun.exe|DRegistry.pas|     |RegKeyExists    |50[0] |
+|006630B1|Autorun.exe|DRegistry.pas|     |Initialization  |141[3]|
+|00663E30|Autorun.exe|Autorun.dpr  |     |                |33[0] |
+------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                          |Version      |Size    |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll     |                                                     |             |172544  |2010-02-15 12:26:40|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe |                                                     |0.0.0.145    |2904064 |2010-02-15 14:13:42|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|10000000|vksaver.dll |Music download filter for vkontakte.ru               |1.0.0.1      |29184   |2009-09-09 11:15:28|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll |Модуль поддержки Windows Socket 2.0 для Windows NT   |5.1.2600.5512|19968   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                        |5.1.2600.5512|82432   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll |32-разрядная библиотека Windows Socket               |5.1.2600.5512|24576   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll     |Библиотека маршрутизации для нескольких служб доступа|5.1.2600.5512|59904   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv|Драйвер диспетчера очереди Windows                   |5.1.2600.5512|146944  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll   |Библиотека (DLL) MSCTF-сервера                       |5.1.2600.5512|297984  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime|Microsoft Text Frame Work Service IME                |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll |GDIEXT Client DLL                                    |5.1.2600.5512|4608    |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL   |Windows XP IMM32 API Client DLL                      |5.1.2600.5512|110080  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll|Библиотека общих диалоговых окон                     |6.0.2900.5512|279040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll   |MCI API DLL                                          |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL   |Process Status Helper                                |5.1.2600.5512|23040   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll|                                                     |5.1.2600.5512|551936  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll|User Experience Controls Library                     |6.0.2900.5512|1054208 |2008-04-15 15:00:00|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll   |Microsoft OLE для  Windows                           |5.1.2600.5512|1287168 |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll |Version Checking and File Installation Libraries     |5.1.2600.5512|18944   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll  |Windows NT CRT DLL                                   |7.0.2600.5512|343040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll|Расширенная библиотека API Windows 32                |5.1.2600.5512|687616  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll  |Remote Procedure Call Runtime                        |5.1.2600.5512|584704  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll   |GDI Client DLL                                       |5.1.2600.5512|285184  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll |Библиотека небольших программ оболочки               |6.0.2900.2995|499200  |2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll |Security Support Provider Interface                  |5.1.2600.5512|56320   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Библиотека клиента Windows NT BASE API               |5.1.2600.5512|995840  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll   |Системная библиотека NT                              |5.1.2600.5594|710144  |2008-05-05 12:17:30|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll |Общая библиотека оболочки Windows                    |6.0.2900.5512|26688512|2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll  |Библиотека клиента USER API Windows XP               |5.1.2600.5512|579072  |2008-05-20 18:54:56|D:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name          |Description                            |Version        |Memory   |Priority|Threads|Path                                                   |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System        |                                       |               |241664   |Normal  |91     |                                                       |
+|312 |Autorun.exe   |                                       |0.0.0.145      |6275072  |Normal  |2      |D:\Documents and Settings\Admin\Рабочий стол\cd-autorun|
+|504 |smss.exe      |                                       |               |421888   |Normal  |3      |\SystemRoot\System32                                   |
+|776 |Explorer.EXE  |Проводник                              |6.0.2900.5512  |31285248 |Normal  |15     |D:\WINDOWS                                             |
+|852 |csrss.exe     |                                       |               |4038656  |Normal  |12     |D:\WINDOWS\system32                                    |
+|876 |winlogon.exe  |                                       |               |2428928  |High    |19     |D:\WINDOWS\system32                                    |
+|920 |services.exe  |Приложение служб и контроллеров        |5.1.2600.5512  |5349376  |Normal  |16     |D:\WINDOWS\system32                                    |
+|940 |lsass.exe     |LSA Shell (Export Version)             |5.1.2600.5512  |696320   |Normal  |18     |D:\WINDOWS\system32                                    |
+|1088|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |5668864  |Normal  |17     |D:\WINDOWS\system32                                    |
+|1204|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4440064  |Normal  |10     |D:\WINDOWS\system32                                    |
+|1244|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |24600576 |Normal  |64     |D:\WINDOWS\System32                                    |
+|1352|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |3059712  |Normal  |4      |D:\WINDOWS\system32                                    |
+|1412|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4485120  |Normal  |13     |D:\WINDOWS\system32                                    |
+|1616|spoolsv.exe   |Spooler SubSystem App                  |5.1.2600.5512  |6828032  |Normal  |12     |D:\WINDOWS\system32                                    |
+|1736|ctfmon.exe    |CTF Loader                             |5.1.2600.5512  |3235840  |Normal  |1      |D:\WINDOWS\system32                                    |
+|1804|BSQLServer.exe|BlackfishSQL Server Launcher           |8.0.3513.24210 |11051008 |Normal  |4      |D:\Program Files\Embarcadero\RAD Studio\7.0\bin        |
+|1940|MDM.EXE       |Machine Debug Manager                  |7.0.9466.0     |2924544  |Normal  |4      |D:\Program Files\Common Files\Microsoft Shared\VS7DEBUG|
+|1968|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4902912  |Normal  |5      |D:\WINDOWS\system32                                    |
+|2416|bds.exe       |Embarcadero RAD Studio for Windows     |14.0.3513.24210|143187968|Normal  |19     |D:\Program Files\Embarcadero\RAD Studio\7.0\Bin        |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-----------------------------------------------------------------------------------------
+; Registry.TRegistry.GetKeyNames (Line=0 - Offset=0)
+; --------------------------------------------------
+004BD48F  mov     [ebp-$2C], ecx
+004BD492  mov     [ebp-$04], ecx
+004BD495  mov     [ebp-$08], edx
+004BD498  mov     edi, eax
+004BD49A  xor     eax, eax
+004BD49C  push    ebp
+004BD49D  push    $004BD53C                       ; 'йП‹фяли_^[‹е]Г‹АSVW‹т‹Ш‹{.…яt.‹Ц'...
+004BD4A2  push    dword ptr fs:[eax]
+004BD4A5  mov     fs:[eax], esp
+004BD4A8  mov     eax, [ebp-$08]
+004BD4AB  mov     edx, [eax]                      ; <-- EXCEPTION
+004BD4AD  call    dword ptr [edx+$44]
+004BD4B0  lea     edx, [ebp-$28]
+004BD4B3  mov     eax, edi
+004BD4B5  call    Registry.TRegistry.GetKeyInfo
+004BD4BA  test    al, al
+004BD4BC  jz      Registry.TRegistry.GetKeyNames
+004BD4BE  mov     ecx, [ebp-$24]
+004BD4C1  inc     ecx
+004BD4C2  lea     eax, [ebp-$04]
+004BD4C5  xor     edx, edx
+
+Registers:
+-----------------------------
+EAX: 000000C8   EDI: 0116D6D0
+EBX: 00000001   ESI: 00000003
+ECX: 00000000   ESP: 0012FEE4
+EDX: 000000C8   EIP: 004BD4AB
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FEE4: 0012FF30   004BD4AB: 8B 10 FF 52 44 8D 55 D8 8B C7 E8 5E FF FF FF 84  ...RD.U....^....
+0012FEE8: 004BD53C   004BD4BB: C0 74 60 8B 4D DC 41 8D 45 FC 33 D2 E8 0C A8 F4  .t`.M.A.E.3.....
+0012FEEC: 0012FF28   004BD4CB: FF 8B 5D D8 4B 85 DB 7C 4A 43 33 F6 8B 45 DC 40  ..].K..|JC3..E.@
+0012FEF0: 000000C8   004BD4DB: 89 45 F4 6A 00 6A 00 6A 00 6A 00 8D 45 F4 50 8B  .E.j.j.j.j..E.P.
+0012FEF4: 00000003   004BD4EB: 45 FC E8 36 A7 F4 FF 50 56 8B 47 04 50 E8 3B FD  E..6...PV.G.P.;.
+0012FEF8: 00000001   004BD4FB: F4 FF 8B 45 FC E8 23 A7 F4 FF 8B D0 8D 45 D4 E8  ...E..#......E..
+0012FEFC: 00000000   004BD50B: 49 A8 F4 FF 8B 55 D4 8B 45 F8 8B 08 FF 51 38 46  I....U..E....Q8F
+0012FF00: 004BD047   004BD51B: 4B 75 B9 33 C0 5A 59 59 64 89 10 68 43 D5 4B 00  Ku.3.ZYYd..hC.K.
+0012FF04: 0012FF30   004BD52B: 8D 45 D4 E8 59 A6 F4 FF 8D 45 FC E8 51 A6 F4 FF  .E..Y....E..Q...
+0012FF08: 004BD05C   004BD53B: C3 E9 CF 8B F4 FF EB E8 5F 5E 5B 8B E5 5D C3 8B  ........_^[..]..
+0012FF0C: 004BD064   004BD54B: C0 53 56 57 8B F2 8B D8 8B 7B 1C 85 FF 74 0B 8B  .SVW.....{...t..
+0012FF10: 00000003   004BD55B: D6 8B C7 E8 61 BE F5 FF EB 09 8B C6 33 D2 E8 2E  ....a.......3...
+0012FF14: 00000001   004BD56B: A6 F4 FF 5F 5E 5B C3 8B C0 B0 04 02 00 FF FF FF  ..._^[..........
+0012FF18: 00000003   004BD57B: FF 11 00 00 00 48 00 4B 00 45 00 59 00 5F 00 43  .....H.K.E.Y._.C
+0012FF1C: 80000001   004BD58B: 00 4C 00 41 00 53 00 53 00 45 00 53 00 5F 00 52  .L.A.S.S.E.S._.R
+0012FF20: 000000C8   004BD59B: 00 4F 00 4F 00 54 00 00 00 B0 04 02 00 FF FF FF  .O.O.T..........
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 15 Feb 2010 14:50:21 +0300
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.146
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 15 Feb 2010 14:50:21 +0300
+  1.6 Up Time         : 0 second
+
+Exception:
+-------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 15 Feb 2010 14:50:21 +0300
+  2.2 Address       : 004BD4AB
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.146
+  2.5 Type          : EAccessViolation
+  2.6 Message       : Access violation at address 004BD4AB in module 'Autorun.exe'. Read of address 000000C8.
+  2.7 ID            : C3A8
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : Autorun - Delphi 2010 - DRegistry [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+----------------------------------------------------------------------------------------
+  5.1 Name          : AELLIN
+  5.2 Total Memory  : 2038 Mb
+  5.3 Free Memory   : 1444 Mb
+  5.4 Total Disk    : 122,39 Gb
+  5.5 Free Disk     : 12,47 Gb
+  5.6 System Up Time: 1 hour, 8 minutes, 18 seconds
+  5.7 Processor     : Intel(R) Pentium(R) Dual  CPU  T2390  @ 1.86GHz
+  5.8 Display Mode  : 1280 x 800, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Mobile Intel(R) 965 Express Chipset Family (driver 6.14.10.4906)
+  5.11 Printer      : Microsoft Office Document Image Writer Driver (driver 11.3.8166.2)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 000.000.000.000
+  7.2 Submask   : 000.000.000.000 - 000.000.000.000
+  7.3 Gateway   : 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 000.000.000.000 - 192.168.003.254
+  7.5 DNS 2     : 000.000.000.000 - 172.016.002.001
+  7.6 DHCP      : ON              - OFF            
+
+Call Stack Information:
+------------------------------------------------------------------
+|Address |Module     |Unit         |Class|Procedure/Method|Line  |
+------------------------------------------------------------------
+|Running Thread: ID=192; Priority=0; Class=; [Main]              |
+|----------------------------------------------------------------|
+|00626D5D|Autorun.exe|DRegistry.pas|     |RegKeyExists    |86[18]|
+|00626BD8|Autorun.exe|DRegistry.pas|     |RegKeyExists    |68[0] |
+|006630B1|Autorun.exe|DRegistry.pas|     |Initialization  |163[3]|
+|00663E30|Autorun.exe|Autorun.dpr  |     |                |33[0] |
+------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                          |Version      |Size    |Modified           |Path                                                                                                |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll     |                                                     |             |172544  |2010-02-15 12:26:40|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|00400000|Autorun.exe |                                                     |0.0.0.146    |2904576 |2010-02-15 14:50:22|D:\Documents and Settings\Admin\Рабочий стол\cd-autorun                                             |
+|10000000|vksaver.dll |Music download filter for vkontakte.ru               |1.0.0.1      |29184   |2009-09-09 11:15:28|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll |Модуль поддержки Windows Socket 2.0 для Windows NT   |5.1.2600.5512|19968   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                        |5.1.2600.5512|82432   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll |32-разрядная библиотека Windows Socket               |5.1.2600.5512|24576   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll     |Библиотека маршрутизации для нескольких служб доступа|5.1.2600.5512|59904   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv|Драйвер диспетчера очереди Windows                   |5.1.2600.5512|146944  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll   |Библиотека (DLL) MSCTF-сервера                       |5.1.2600.5512|297984  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime|Microsoft Text Frame Work Service IME                |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll |GDIEXT Client DLL                                    |5.1.2600.5512|4608    |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL   |Windows XP IMM32 API Client DLL                      |5.1.2600.5512|110080  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll|Библиотека общих диалоговых окон                     |6.0.2900.5512|279040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll   |MCI API DLL                                          |5.1.2600.5512|177152  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL   |Process Status Helper                                |5.1.2600.5512|23040   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll|                                                     |5.1.2600.5512|551936  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll|User Experience Controls Library                     |6.0.2900.5512|1054208 |2008-04-15 15:00:00|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll   |Microsoft OLE для  Windows                           |5.1.2600.5512|1287168 |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll |Version Checking and File Installation Libraries     |5.1.2600.5512|18944   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll  |Windows NT CRT DLL                                   |7.0.2600.5512|343040  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll|Расширенная библиотека API Windows 32                |5.1.2600.5512|687616  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll  |Remote Procedure Call Runtime                        |5.1.2600.5512|584704  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll   |GDI Client DLL                                       |5.1.2600.5512|285184  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll |Библиотека небольших программ оболочки               |6.0.2900.2995|499200  |2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll |Security Support Provider Interface                  |5.1.2600.5512|56320   |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|Библиотека клиента Windows NT BASE API               |5.1.2600.5512|995840  |2008-04-15 15:00:00|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll   |Системная библиотека NT                              |5.1.2600.5594|710144  |2008-05-05 12:17:30|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll |Общая библиотека оболочки Windows                    |6.0.2900.5512|26688512|2008-05-20 18:54:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll  |Библиотека клиента USER API Windows XP               |5.1.2600.5512|579072  |2008-05-20 18:54:56|D:\WINDOWS\system32                                                                                 |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name          |Description                            |Version        |Memory   |Priority|Threads|Path                                                   |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System        |                                       |               |241664   |Normal  |92     |                                                       |
+|504 |smss.exe      |                                       |               |421888   |Normal  |3      |\SystemRoot\System32                                   |
+|776 |Explorer.EXE  |Проводник                              |6.0.2900.5512  |31748096 |Normal  |15     |D:\WINDOWS                                             |
+|852 |csrss.exe     |                                       |               |4562944  |Normal  |12     |D:\WINDOWS\system32                                    |
+|876 |winlogon.exe  |                                       |               |2834432  |High    |19     |D:\WINDOWS\system32                                    |
+|896 |Autorun.exe   |                                       |0.0.0.146      |6262784  |Normal  |2      |D:\Documents and Settings\Admin\Рабочий стол\cd-autorun|
+|920 |services.exe  |Приложение служб и контроллеров        |5.1.2600.5512  |5353472  |Normal  |16     |D:\WINDOWS\system32                                    |
+|940 |lsass.exe     |LSA Shell (Export Version)             |5.1.2600.5512  |1130496  |Normal  |18     |D:\WINDOWS\system32                                    |
+|1088|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |5660672  |Normal  |16     |D:\WINDOWS\system32                                    |
+|1204|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4444160  |Normal  |10     |D:\WINDOWS\system32                                    |
+|1244|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |24870912 |Normal  |64     |D:\WINDOWS\System32                                    |
+|1352|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |3059712  |Normal  |4      |D:\WINDOWS\system32                                    |
+|1412|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4485120  |Normal  |13     |D:\WINDOWS\system32                                    |
+|1616|spoolsv.exe   |Spooler SubSystem App                  |5.1.2600.5512  |6819840  |Normal  |11     |D:\WINDOWS\system32                                    |
+|1736|ctfmon.exe    |CTF Loader                             |5.1.2600.5512  |3244032  |Normal  |1      |D:\WINDOWS\system32                                    |
+|1804|BSQLServer.exe|BlackfishSQL Server Launcher           |8.0.3513.24210 |11051008 |Normal  |4      |D:\Program Files\Embarcadero\RAD Studio\7.0\bin        |
+|1880|TSVNCache.exe |TortoiseSVN status cache               |1.6.6.17493    |13701120 |Normal  |8      |D:\Program Files\TortoiseSVN\bin                       |
+|1940|MDM.EXE       |Machine Debug Manager                  |7.0.9466.0     |2924544  |Normal  |4      |D:\Program Files\Common Files\Microsoft Shared\VS7DEBUG|
+|1968|svchost.exe   |Generic Host Process for Win32 Services|5.1.2600.5512  |4907008  |Normal  |5      |D:\WINDOWS\system32                                    |
+|2064|Far.exe       |File and archive manager               |1.71.3.2126    |15249408 |Normal  |2      |D:\Program Files\Far                                   |
+|2416|bds.exe       |Embarcadero RAD Studio for Windows     |14.0.3513.24210|143998976|Normal  |18     |D:\Program Files\Embarcadero\RAD Studio\7.0\Bin        |
+|2804|firefox.exe   |Firefox                                |1.9.1.3642     |45694976 |Normal  |12     |D:\Program Files\Mozilla Firefox                       |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-----------------------------------------------------------------------------------------
+; Registry.TRegistry.GetKeyNames (Line=0 - Offset=0)
+; --------------------------------------------------
+004BD48F  mov     [ebp-$2C], ecx
+004BD492  mov     [ebp-$04], ecx
+004BD495  mov     [ebp-$08], edx
+004BD498  mov     edi, eax
+004BD49A  xor     eax, eax
+004BD49C  push    ebp
+004BD49D  push    $004BD53C                       ; 'йП‹фяли_^[‹е]Г‹АSVW‹т‹Ш‹{.…яt.‹Ц'...
+004BD4A2  push    dword ptr fs:[eax]
+004BD4A5  mov     fs:[eax], esp
+004BD4A8  mov     eax, [ebp-$08]
+004BD4AB  mov     edx, [eax]                      ; <-- EXCEPTION
+004BD4AD  call    dword ptr [edx+$44]
+004BD4B0  lea     edx, [ebp-$28]
+004BD4B3  mov     eax, edi
+004BD4B5  call    Registry.TRegistry.GetKeyInfo
+004BD4BA  test    al, al
+004BD4BC  jz      Registry.TRegistry.GetKeyNames
+004BD4BE  mov     ecx, [ebp-$24]
+004BD4C1  inc     ecx
+004BD4C2  lea     eax, [ebp-$04]
+004BD4C5  xor     edx, edx
+
+Registers:
+-----------------------------
+EAX: 000000C8   EDI: 0116D4D0
+EBX: 00000001   ESI: 00000003
+ECX: 00000000   ESP: 0012FED4
+EDX: 000000C8   EIP: 004BD4AB
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012FED4: 0012FF20   004BD4AB: 8B 10 FF 52 44 8D 55 D8 8B C7 E8 5E FF FF FF 84  ...RD.U....^....
+0012FED8: 004BD53C   004BD4BB: C0 74 60 8B 4D DC 41 8D 45 FC 33 D2 E8 0C A8 F4  .t`.M.A.E.3.....
+0012FEDC: 0012FF18   004BD4CB: FF 8B 5D D8 4B 85 DB 7C 4A 43 33 F6 8B 45 DC 40  ..].K..|JC3..E.@
+0012FEE0: 000000C8   004BD4DB: 89 45 F4 6A 00 6A 00 6A 00 6A 00 8D 45 F4 50 8B  .E.j.j.j.j..E.P.
+0012FEE4: 00000003   004BD4EB: 45 FC E8 36 A7 F4 FF 50 56 8B 47 04 50 E8 3B FD  E..6...PV.G.P.;.
+0012FEE8: 00000001   004BD4FB: F4 FF 8B 45 FC E8 23 A7 F4 FF 8B D0 8D 45 D4 E8  ...E..#......E..
+0012FEEC: 00000000   004BD50B: 49 A8 F4 FF 8B 55 D4 8B 45 F8 8B 08 FF 51 38 46  I....U..E....Q8F
+0012FEF0: 004BD047   004BD51B: 4B 75 B9 33 C0 5A 59 59 64 89 10 68 43 D5 4B 00  Ku.3.ZYYd..hC.K.
+0012FEF4: 0012FF20   004BD52B: 8D 45 D4 E8 59 A6 F4 FF 8D 45 FC E8 51 A6 F4 FF  .E..Y....E..Q...
+0012FEF8: 004BD05C   004BD53B: C3 E9 CF 8B F4 FF EB E8 5F 5E 5B 8B E5 5D C3 8B  ........_^[..]..
+0012FEFC: 004BD064   004BD54B: C0 53 56 57 8B F2 8B D8 8B 7B 1C 85 FF 74 0B 8B  .SVW.....{...t..
+0012FF00: 00000003   004BD55B: D6 8B C7 E8 61 BE F5 FF EB 09 8B C6 33 D2 E8 2E  ....a.......3...
+0012FF04: 00000001   004BD56B: A6 F4 FF 5F 5E 5B C3 8B C0 B0 04 02 00 FF FF FF  ..._^[..........
+0012FF08: 00000003   004BD57B: FF 11 00 00 00 48 00 4B 00 45 00 59 00 5F 00 43  .....H.K.E.Y._.C
+0012FF0C: 80000001   004BD58B: 00 4C 00 41 00 53 00 53 00 45 00 53 00 5F 00 52  .L.A.S.S.E.S._.R
+0012FF10: 000000C8   004BD59B: 00 4F 00 4F 00 54 00 00 00 B0 04 02 00 FF FF FF  .O.O.T..........
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Tue, 21 Sep 2010 00:45:24 +0400
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.362
+  1.4 Parameters      : 
+  1.5 Compilation Date: Tue, 27 Apr 2010 22:30:07 +0400
+  1.6 Up Time         : 4 seconds
+
+Exception:
+-------------------------------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Tue, 21 Sep 2010 00:45:29 +0400
+  2.2 Address       : 0043B721
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.362
+  2.5 Type          : EFOpenError
+  2.6 Message       : Cannot open file "F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен\img\blank2.png". Не удается найти указанный файл.
+  2.7 ID            : ADC1
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+-------------------------------------------
+  4.1 Form Class   : TApplication
+  4.2 Form Text    : КИО "Журнал в журнале"
+  4.3 Control Class: TApplication
+  4.4 Control Text : 
+
+Computer:
+------------------------------------------------------------------------------------------------------------
+  5.1 Name          : ALEXEY
+  5.2 Total Memory  : 511 Mb
+  5.3 Free Memory   : 71 Mb
+  5.4 Total Disk    : 465,76 Gb
+  5.5 Free Disk     : 404,42 Gb
+  5.6 System Up Time: 45 minutes, 17 seconds
+  5.7 Processor     : Intel(R) Pentium(R) 4 CPU 2.40GHz
+  5.8 Display Mode  : 1280 x 1024, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : NVIDIA GeForce4 MX 440 with AGP8X (Microsoft Corporation) (driver 5.6.7.3 - RAM 64 MB)
+  5.11 Printer      : Canon iP4500 series (driver 2.11.2.10)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : Service Pack 3
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------
+  7.1 IP Address: 192.168.000.195
+  7.2 Submask   : 255.255.255.000
+  7.3 Gateway   : 192.168.000.001
+  7.4 DNS 1     : 217.170.064.005
+  7.5 DNS 2     : 192.168.000.001
+  7.6 DHCP      : ON             
+
+Call Stack Information:
+------------------------------------------------------------------------------
+|Address |Module      |Unit        |Class       |Procedure/Method    |Line   |
+------------------------------------------------------------------------------
+|Running Thread: ID=3412; Priority=0; Class=; [Main]                         |
+|----------------------------------------------------------------------------|
+|00637588|Autorun.exe |MainUnit.pas|            |LuaPage             |241[11]|
+|0034477A|lua.dll     |            |            |luaD_precall        |       |
+|7C809C15|kernel32.dll|            |            |CloseHandle         |       |
+|7C809BD7|kernel32.dll|            |            |CloseHandle         |       |
+|0034A9B2|lua.dll     |            |            |luaV_execute        |       |
+|003449A2|lua.dll     |            |            |luaD_poscall        |       |
+|003442D2|lua.dll     |            |            |luaD_rawrunprotected|       |
+|003442B3|lua.dll     |            |            |luaD_rawrunprotected|       |
+|00344C85|lua.dll     |            |            |luaD_pcall          |       |
+|00344C52|lua.dll     |            |            |luaD_pcall          |       |
+|00341EC5|lua.dll     |            |            |lua_pcall           |       |
+|00341E7B|lua.dll     |            |            |lua_pcall           |       |
+|0056CC1F|Autorun.exe |LuaUtils.pas|            |LuaPCall            |949[1] |
+|0056CBF4|Autorun.exe |LuaUtils.pas|            |LuaPCall            |948[0] |
+|0056DA61|Autorun.exe |DLua.pas    |TLua        |DoFile              |91[6]  |
+|0056D9C4|Autorun.exe |DLua.pas    |TLua        |DoFile              |85[0]  |
+|0063B90C|Autorun.exe |MainUnit.pas|TAutorunForm|ExecLuaScript       |1175[5]|
+|0063B8E0|Autorun.exe |MainUnit.pas|TAutorunForm|ExecLuaScript       |1170[0]|
+|0063B9AA|Autorun.exe |MainUnit.pas|TAutorunForm|FormCreate          |1197[5]|
+|00665721|Autorun.exe |Autorun.dpr |            |                    |37[4]  |
+------------------------------------------------------------------------------
+
+Modules Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                |Description                                                   |Version         |Size   |Modified           |Path                                                                                                |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll             |                                                              |                |172544 |2009-09-19 12:08:22|F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен                                                         |
+|00400000|Autorun.exe         |                                                              |0.0.0.362       |2913792|2010-04-27 22:54:30|F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен                                                         |
+|01A30000|TortoiseSVN.dll     |TortoiseSVN shell extension client                            |1.6.10.19898    |815384 |2010-07-16 17:32:32|D:\Program Files\TortoiseSVN\bin                                                                    |
+|01B10000|Normaliz.dll        |Unicode Normalization DLL                                     |6.0.5441.0      |23552  |2007-10-25 23:01:44|D:\WINDOWS\system32                                                                                 |
+|05940000|TortoiseStub.dll    |TortoiseSVN shell extension client                            |1.6.10.19898    |48920  |2010-07-16 17:32:32|D:\Program Files\TortoiseSVN\bin                                                                    |
+|05960000|TortoiseOverlays.dll|TortoiseSVN overlay handler shim                              |1.1.1.19039     |87304  |2010-03-21 08:55:16|D:\Program Files\Common Files\TortoiseOverlays                                                      |
+|08000000|pshook.dll          |Punto Switcher hook module                                    |3.1.1.72        |21800  |2010-07-12 11:08:46|D:\Program Files\Yandex\Punto Switcher                                                              |
+|10000000|intl3_tsvn.dll      |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME    |0.14.4.0        |62744  |2010-07-16 17:32:18|D:\Program Files\TortoiseSVN\bin                                                                    |
+|43090000|iertutil.dll        |Run time utility for Internet Explorer                        |7.0.6000.20772  |267776 |2008-04-09 10:01:48|D:\WINDOWS\system32                                                                                 |
+|43310000|WININET.dll         |Internet Extensions for Win32                                 |7.0.6000.20772  |827392 |2008-04-14 22:59:42|D:\WINDOWS\system32                                                                                 |
+|5B260000|uxtheme.dll         |Библиотека тем UxTheme (Microsoft)                            |6.0.2900.5512   |219648 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|6EE60000|libaprutil_tsvn.dll |Apache Portable Runtime Utility Library                       |1.3.9.0         |186136 |2010-07-16 17:32:20|D:\Program Files\TortoiseSVN\bin                                                                    |
+|6EEC0000|libapr_tsvn.dll     |Apache Portable Runtime Library                               |1.3.8.0         |128280 |2010-07-16 17:32:20|D:\Program Files\TortoiseSVN\bin                                                                    |
+|71A30000|MSWSOCK.dll         |Расширение поставщика службы API Microsoft Windows Sockets 2.0|5.1.2600.5512   |247296 |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll         |Модуль поддержки Windows Socket 2.0 для Windows NT            |5.1.2600.5512   |19968  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll          |Windows Socket 2.0 32-Bit DLL                                 |5.1.2600.5512   |82432  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll         |32-разрядная библиотека Windows Socket                        |5.1.2600.5512   |24576  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll             |Библиотека маршрутизации для нескольких служб доступа         |5.1.2600.5512   |59904  |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv        |Драйвер диспетчера очереди Windows                            |5.1.2600.5512   |146944 |2008-04-14 21:41:18|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll           |Библиотека (DLL) MSCTF-сервера                                |5.1.2600.5512   |297984 |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime        |Microsoft Text Frame Work Service IME                         |5.1.2600.5512   |177152 |2008-04-14 21:39:22|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll         |GDIEXT Client DLL                                             |5.1.2600.5512   |4608   |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL           |Windows XP IMM32 API Client DLL                               |5.1.2600.5512   |110080 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll        |Библиотека общих диалоговых окон                              |6.0.2900.5512   |279040 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|765D0000|CSCDLL.dll          |Сетевой агент автономного режима                              |5.1.2600.5512   |102400 |2008-04-14 21:40:36|D:\WINDOWS\System32                                                                                 |
+|76760000|SHFOLDER.dll        |Shell Folder Service                                          |6.0.2900.5512   |25088  |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll           |MCI API DLL                                                   |5.1.2600.5512   |177152 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL           |Process Status Helper                                         |5.1.2600.5512   |23040  |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|76C80000|imagehlp.dll        |Windows NT Image Helper                                       |5.1.2600.5512   |144384 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|76F50000|WLDAP32.dll         |Win32 LDAP API DLL                                            |5.1.2600.5512   |172544 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|76FC0000|CLBCATQ.DLL         |                                                              |2001.12.4414.700|498688 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77040000|COMRes.dll          |                                                              |2001.12.4414.700|797696 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll        |                                                              |5.1.2600.5512   |551936 |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll        |User Experience Controls Library                              |6.0.2900.5512   |1054208|2008-04-14 21:38:38|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll           |Microsoft OLE для  Windows                                    |5.1.2600.5512   |1287168|2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|77910000|SETUPAPI.dll        |Windows Setup API                                             |5.1.2600.5512   |991744 |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|77A10000|cscui.dll           |Интерфейс кэширования на стороне клиента                      |5.1.2600.5512   |330752 |2008-04-14 21:40:36|D:\WINDOWS\System32                                                                                 |
+|77A70000|CRYPT32.dll         |API32 криптографии                                            |5.131.2600.5512 |602112 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77B10000|MSASN1.dll          |ASN.1 Runtime APIs                                            |5.1.2600.5512   |57344  |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|77B30000|appHelp.dll         |Application Compatibility Client Library                      |5.1.2600.5512   |125952 |2008-04-14 21:40:34|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll         |Version Checking and File Installation Libraries              |5.1.2600.5512   |18944  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll          |Windows NT CRT DLL                                            |7.0.2600.5512   |343040 |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll        |Расширенная библиотека API Windows 32                         |5.1.2600.5512   |687616 |2008-04-14 21:40:34|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll          |Remote Procedure Call Runtime                                 |5.1.2600.5512   |584704 |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll           |GDI Client DLL                                                |5.1.2600.5512   |285184 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll         |Библиотека небольших программ оболочки                        |6.0.2900.5512   |474112 |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll         |Security Support Provider Interface                           |5.1.2600.5512   |56320  |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|78480000|MSVCP90.dll         |Microsoft® C++ Runtime Library                                |9.0.30729.4974  |569680 |2010-02-16 01:05:52|D:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4974_x-ww_d889290f              |
+|78520000|MSVCR90.dll         |Microsoft® C Runtime Library                                  |9.0.30729.4974  |653136 |2010-02-16 01:05:52|D:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4974_x-ww_d889290f              |
+|7C800000|kernel32.dll        |Библиотека клиента Windows NT BASE API                        |5.1.2600.5512   |995840 |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll           |Системная библиотека NT                                       |5.1.2600.5512   |710144 |2008-04-14 21:40:20|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll         |Общая библиотека оболочки Windows                             |6.0.2900.5512   |8478208|2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll          |Библиотека клиента USER API Windows XP                        |5.1.2600.5512   |579072 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                |Description                            |Version        |Memory  |Priority|Threads|Path                                           |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System              |                                       |               |225280  |Normal  |65     |                                               |
+|176 |egui.exe            |ESET GUI                               |4.0.314.0      |7151616 |Normal  |7      |D:\Program Files\ESET\ESET NOD32 Antivirus     |
+|280 |ctfmon.exe          |CTF Loader                             |5.1.2600.5512  |3428352 |Normal  |1      |D:\WINDOWS\system32                            |
+|320 |VistaDrv.exe        |                                       |               |6017024 |Normal  |1      |D:\Program Files\VistaDriveIcon                |
+|376 |inetinfo.exe        |Internet Information Services          |5.1.2600.5512  |9818112 |Normal  |25     |D:\WINDOWS\system32\inetsrv                    |
+|400 |jqs.exe             |Java(TM) Quick Starter Service         |6.0.210.6      |1429504 |Low     |12     |D:\Program Files\Java\jre6\bin                 |
+|404 |punto.exe           |Punto Switcher                         |3.1.1.72       |7176192 |Normal  |3      |D:\Program Files\Yandex\Punto Switcher         |
+|436 |matlabserver.exe    |                                       |               |9707520 |Normal  |5      |C:\MATLAB6p5\webserver\bin\win32               |
+|596 |smss.exe            |                                       |               |405504  |Normal  |3      |\SystemRoot\System32                           |
+|684 |winlogon.exe        |                                       |               |3661824 |High    |20     |D:\WINDOWS\system32                            |
+|728 |services.exe        |Приложение служб и контроллеров        |5.1.2600.5512  |3129344 |Normal  |16     |D:\WINDOWS\system32                            |
+|740 |lsass.exe           |LSA Shell (Export Version)             |5.1.2600.5512  |950272  |Normal  |19     |D:\WINDOWS\system32                            |
+|924 |svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |4980736 |Normal  |17     |D:\WINDOWS\system32                            |
+|1100|Autorun.exe         |                                       |0.0.0.362      |15134720|Normal  |3      |F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен    |
+|1104|svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |23040000|Normal  |72     |D:\WINDOWS\System32                            |
+|1212|sqlwriter.exe       |SQL Server VSS Writer                  |2009.100.1600.1|3497984 |Normal  |3      |D:\Program Files\Microsoft SQL Server\90\Shared|
+|1484|SciTE.exe           |SciTE - a Scintilla based Text Editor  |1.7.6.57       |5746688 |Normal  |1      |D:\Program Files\SciTE                         |
+|1572|spoolsv.exe         |Spooler SubSystem App                  |5.1.2600.5512  |5881856 |Normal  |10     |D:\WINDOWS\system32                            |
+|1764|Explorer.EXE        |Проводник                              |6.0.2900.5512  |28143616|Normal  |19     |D:\WINDOWS                                     |
+|1848|TSVNCache.exe       |TortoiseSVN status cache               |1.6.10.19898   |5742592 |Normal  |8      |D:\Program Files\TortoiseSVN\bin               |
+|2028|ekrn.exe            |ESET Service                           |4.0.314.0      |60329984|Normal  |20     |D:\Program Files\ESET\ESET NOD32 Antivirus     |
+|2044|BJMyPrt.exe         |Canon My Printer                       |1.5.0.0        |2846720 |Normal  |1      |D:\Program Files\Canon\MyPrinter               |
+|2152|plugin-container.exe|Plugin Container for Firefox           |1.9.2.3909     |23691264|Normal  |10     |D:\Program Files\Mozilla Firefox               |
+|2728|svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |3403776 |Normal  |8      |D:\WINDOWS\System32                            |
+|2900|firefox.exe         |Firefox                                |1.9.2.3909     |98430976|Normal  |23     |D:\Program Files\Mozilla Firefox               |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-------------------------------------------------------------------
+; Classes.TFileStream.Create (Line=0 - Offset=0)
+; ----------------------------------------------
+0043B6FF  mov     eax, [ebp-$24]
+0043B702  mov     [ebp-$0C], eax
+0043B705  mov     byte ptr [ebp-$08], $11
+0043B709  lea     eax, [ebp-$14]
+0043B70C  push    eax
+0043B70D  push    $01
+0043B70F  mov     ecx, [Autorun.Autorun (Line=42)]
+0043B715  mov     dl, $01
+0043B717  mov     eax, dword ptr [Classes.Classes]
+0043B71C  call    SysUtils.Exception.CreateResFmt
+0043B721  call    System._RaiseExcept               ; <-- EXCEPTION
+0043B726  lea     eax, [ebx+$08]
+0043B729  mov     edx, esi
+0043B72B  call    System._WStrSetLength
+0043B730  xor     eax, eax
+0043B732  pop     edx
+0043B733  pop     ecx
+0043B734  pop     ecx
+0043B735  mov     fs:[eax], edx
+0043B738  push    $0043B752                         ; '‹ГЂ}я'
+0043B73D  lea     eax, [ebp-$24]
+
+Registers:
+-----------------------------
+EAX: 01FC0480   EDI: 00000020
+EBX: 01FC0320   ESI: 0201735C
+ECX: 0042B800   ESP: 0012F9D0
+EDX: 0043B726   EIP: 0043B721
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F9D0: 0012FA1C   0043B721: E8 8E AB FC FF 8D 43 08 8B D6 E8 F0 C3 FC FF 33  ......C........3
+0012F9D4: 00406190   0043B731: C0 5A 59 59 64 89 10 68 52 B7 43 00 8D 45 DC BA  .ZYYd..hR.C..E..
+0012F9D8: 0012FA0C   0043B741: 04 00 00 00 E8 CE C3 FC FF C3 E9 C0 A9 FC FF EB  ................
+0012F9DC: 0201735C   0043B751: EB 8B C3 80 7D FF 00 74 0F E8 45 A5 FC FF 64 8F  ....}..t..E...d.
+0012F9E0: 01FC0320   0043B761: 05 00 00 00 00 83 C4 0C 8B C3 5F 5E 5B 8B E5 5D  .........._^[..]
+0012F9E4: 02017301   0043B771: C2 08 00 53 56 E8 79 A5 FC FF 8B DA 8B F0 8B 46  ...SV.y........F
+0012F9E8: 00000000   0043B781: 04 83 F8 FF 74 06 50 E8 A7 1A FD FF 8B D3 80 E2  ....t.P.........
+0012F9EC: 00000000   0043B791: FC 8B C6 E8 6F 9F FC FF 84 DB 7E 07 8B C6 E8 F8  ....o.....~.....
+0012F9F0: 00000000   0043B7A1: A4 FC FF 5E 5B C3 90 89 50 04 89 48 08 C3 90 53  ...^[...P..H...S
+0012F9F4: 00000000   0043B7B1: 56 57 8B D8 8B 7B 0C 85 FF 7C 24 85 C9 7C 20 8B  VW...{...|$..| .
+0012F9F8: 011B1AFC   0043B7C1: 73 08 2B F7 85 F6 7E 17 3B CE 7D 02 8B F1 8B 43  s.+...~.;.}....C
+0012F9FC: 0042F911   0043B7D1: 04 03 C7 8B CE E8 35 8D FC FF 01 73 0C EB 02 33  ......5....s...3
+0012FA00: 0202797C   0043B7E1: F6 8B C6 5F 5E 5B C3 66 83 E9 01 72 09 74 0C 66  ..._^[.f...r.t.f
+0012FA04: 02017111   0043B7F1: FF C9 74 0C EB 10 89 50 0C EB 0B 01 50 0C EB 06  ..t....P....P...
+0012FA08: 00405C56   0043B801: 03 50 08 89 50 0C 8B 40 0C C3 90 53 8B 48 08 85  .P..P..@...S.H..
+0012FA0C: 0012FA34   0043B811: C9 74 0C 8B 58 04 87 DA 8B C3 E8 54 F6 FF FF 5B  .t..X......T...[
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Tue, 21 Sep 2010 00:46:45 +0400
+  1.2 Name/Description: Autorun.exe
+  1.3 Version Number  : 0.0.0.362
+  1.4 Parameters      : 
+  1.5 Compilation Date: Tue, 27 Apr 2010 22:30:07 +0400
+  1.6 Up Time         : 9 seconds
+
+Exception:
+-----------------------------------------------------------
+  2.1 Date          : Tue, 21 Sep 2010 00:46:54 +0400
+  2.2 Address       : 0063750F
+  2.3 Module Name   : Autorun.exe
+  2.4 Module Version: 0.0.0.362
+  2.5 Type          : EMemoryLeak
+  2.6 Message       : Memory Leak: Total size=12 - Count=1.
+  2.7 ID            : 57A7
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Admin
+  3.3 Email     : 
+  3.4 Company   : Microsoft
+  3.5 Privileges: SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+----------------------------------------------------------------
+  4.1 Form Class   : CabinetWClass
+  4.2 Form Text    : F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+------------------------------------------------------------------------------------------------------------
+  5.1 Name          : ALEXEY
+  5.2 Total Memory  : 511 Mb
+  5.3 Free Memory   : 68 Mb
+  5.4 Total Disk    : 465,76 Gb
+  5.5 Free Disk     : 404,43 Gb
+  5.6 System Up Time: 46 minutes, 41 seconds
+  5.7 Processor     : Intel(R) Pentium(R) 4 CPU 2.40GHz
+  5.8 Display Mode  : 1280 x 1024, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : NVIDIA GeForce4 MX 440 with AGP8X (Microsoft Corporation) (driver 5.6.7.3 - RAM 64 MB)
+  5.11 Printer      : Canon iP4500 series (driver 2.11.2.10)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : 
+  6.4 Language: Russian
+  6.5 Charset : 204
+
+Network:
+---------------------------------
+  7.1 IP Address: 192.168.000.195
+  7.2 Submask   : 255.255.255.000
+  7.3 Gateway   : 192.168.000.001
+  7.4 DNS 1     : 217.170.064.005
+  7.5 DNS 2     : 192.168.000.001
+  7.6 DHCP      : ON             
+
+Call Stack Information:
+-----------------------------------------------------------------
+|Address |Module     |Unit        |Class|Procedure/Method|Line  |
+-----------------------------------------------------------------
+|+Memory Leak: Type=TLua; Total size=12; Count=1                |
+|---------------------------------------------------------------|
+|0063750F|Autorun.exe|MainUnit.pas|     |LuaPage         |231[1]|
+-----------------------------------------------------------------
+
+Modules Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                |Description                                                   |Version         |Size   |Modified           |Path                                                                                                |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00340000|lua.dll             |                                                              |                |172544 |2009-09-19 12:08:22|F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен                                                         |
+|00400000|Autorun.exe         |                                                              |0.0.0.362       |2913792|2010-04-27 22:54:30|F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен                                                         |
+|01A30000|TortoiseSVN.dll     |TortoiseSVN shell extension client                            |1.6.10.19898    |815384 |2010-07-16 17:32:32|D:\Program Files\TortoiseSVN\bin                                                                    |
+|01B10000|Normaliz.dll        |Unicode Normalization DLL                                     |6.0.5441.0      |23552  |2007-10-25 23:01:44|D:\WINDOWS\system32                                                                                 |
+|05940000|TortoiseStub.dll    |TortoiseSVN shell extension client                            |1.6.10.19898    |48920  |2010-07-16 17:32:32|D:\Program Files\TortoiseSVN\bin                                                                    |
+|05960000|TortoiseOverlays.dll|TortoiseSVN overlay handler shim                              |1.1.1.19039     |87304  |2010-03-21 08:55:16|D:\Program Files\Common Files\TortoiseOverlays                                                      |
+|08000000|pshook.dll          |Punto Switcher hook module                                    |3.1.1.72        |21800  |2010-07-12 11:08:46|D:\Program Files\Yandex\Punto Switcher                                                              |
+|10000000|intl3_tsvn.dll      |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME    |0.14.4.0        |62744  |2010-07-16 17:32:18|D:\Program Files\TortoiseSVN\bin                                                                    |
+|43090000|iertutil.dll        |Run time utility for Internet Explorer                        |7.0.6000.20772  |267776 |2008-04-09 10:01:48|D:\WINDOWS\system32                                                                                 |
+|43310000|WININET.dll         |Internet Extensions for Win32                                 |7.0.6000.20772  |827392 |2008-04-14 22:59:42|D:\WINDOWS\system32                                                                                 |
+|5B260000|uxtheme.dll         |Библиотека тем UxTheme (Microsoft)                            |6.0.2900.5512   |219648 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|6EE60000|libaprutil_tsvn.dll |Apache Portable Runtime Utility Library                       |1.3.9.0         |186136 |2010-07-16 17:32:20|D:\Program Files\TortoiseSVN\bin                                                                    |
+|6EEC0000|libapr_tsvn.dll     |Apache Portable Runtime Library                               |1.3.8.0         |128280 |2010-07-16 17:32:20|D:\Program Files\TortoiseSVN\bin                                                                    |
+|71A30000|MSWSOCK.dll         |Расширение поставщика службы API Microsoft Windows Sockets 2.0|5.1.2600.5512   |247296 |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|71A80000|WS2HELP.dll         |Модуль поддержки Windows Socket 2.0 для Windows NT            |5.1.2600.5512   |19968  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71A90000|WS2_32.dll          |Windows Socket 2.0 32-Bit DLL                                 |5.1.2600.5512   |82432  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71AB0000|wsock32.dll         |32-разрядная библиотека Windows Socket                        |5.1.2600.5512   |24576  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|71B00000|mpr.dll             |Библиотека маршрутизации для нескольких служб доступа         |5.1.2600.5512   |59904  |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|72FC0000|winspool.drv        |Драйвер диспетчера очереди Windows                            |5.1.2600.5512   |146944 |2008-04-14 21:41:18|D:\WINDOWS\system32                                                                                 |
+|746E0000|MSCTF.dll           |Библиотека (DLL) MSCTF-сервера                                |5.1.2600.5512   |297984 |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|75310000|msctfime.ime        |Microsoft Text Frame Work Service IME                         |5.1.2600.5512   |177152 |2008-04-14 21:39:22|D:\WINDOWS\system32                                                                                 |
+|76350000|msimg32.dll         |GDIEXT Client DLL                                             |5.1.2600.5512   |4608   |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|76360000|IMM32.DLL           |Windows XP IMM32 API Client DLL                               |5.1.2600.5512   |110080 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|76380000|comdlg32.dll        |Библиотека общих диалоговых окон                              |6.0.2900.5512   |279040 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|76760000|SHFOLDER.dll        |Shell Folder Service                                          |6.0.2900.5512   |25088  |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|76B20000|winmm.dll           |MCI API DLL                                                   |5.1.2600.5512   |177152 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|76BE0000|PSAPI.DLL           |Process Status Helper                                         |5.1.2600.5512   |23040  |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|76C80000|imagehlp.dll        |Windows NT Image Helper                                       |5.1.2600.5512   |144384 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|76F50000|WLDAP32.dll         |Win32 LDAP API DLL                                            |5.1.2600.5512   |172544 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|76FC0000|CLBCATQ.DLL         |                                                              |2001.12.4414.700|498688 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77040000|COMRes.dll          |                                                              |2001.12.4414.700|797696 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77110000|oleaut32.dll        |                                                              |5.1.2600.5512   |551936 |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|773C0000|comctl32.dll        |User Experience Controls Library                              |6.0.2900.5512   |1054208|2008-04-14 21:38:38|D:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83|
+|774D0000|ole32.dll           |Microsoft OLE для  Windows                                    |5.1.2600.5512   |1287168|2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|77910000|SETUPAPI.dll        |Windows Setup API                                             |5.1.2600.5512   |991744 |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|77A70000|CRYPT32.dll         |API32 криптографии                                            |5.131.2600.5512 |602112 |2008-04-14 21:40:36|D:\WINDOWS\system32                                                                                 |
+|77B10000|MSASN1.dll          |ASN.1 Runtime APIs                                            |5.1.2600.5512   |57344  |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|77B30000|appHelp.dll         |Application Compatibility Client Library                      |5.1.2600.5512   |125952 |2008-04-14 21:40:34|D:\WINDOWS\system32                                                                                 |
+|77BF0000|version.dll         |Version Checking and File Installation Libraries              |5.1.2600.5512   |18944  |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+|77C00000|msvcrt.dll          |Windows NT CRT DLL                                            |7.0.2600.5512   |343040 |2008-04-14 21:40:42|D:\WINDOWS\system32                                                                                 |
+|77DC0000|ADVAPI32.dll        |Расширенная библиотека API Windows 32                         |5.1.2600.5512   |687616 |2008-04-14 21:40:34|D:\WINDOWS\system32                                                                                 |
+|77E70000|RPCRT4.dll          |Remote Procedure Call Runtime                                 |5.1.2600.5512   |584704 |2008-04-14 21:40:44|D:\WINDOWS\system32                                                                                 |
+|77F10000|GDI32.dll           |GDI Client DLL                                                |5.1.2600.5512   |285184 |2008-04-14 21:40:38|D:\WINDOWS\system32                                                                                 |
+|77F60000|SHLWAPI.dll         |Библиотека небольших программ оболочки                        |6.0.2900.5512   |474112 |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|77FE0000|Secur32.dll         |Security Support Provider Interface                           |5.1.2600.5512   |56320  |2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|78480000|MSVCP90.dll         |Microsoft® C++ Runtime Library                                |9.0.30729.4974  |569680 |2010-02-16 01:05:52|D:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4974_x-ww_d889290f              |
+|78520000|MSVCR90.dll         |Microsoft® C Runtime Library                                  |9.0.30729.4974  |653136 |2010-02-16 01:05:52|D:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4974_x-ww_d889290f              |
+|7C800000|kernel32.dll        |Библиотека клиента Windows NT BASE API                        |5.1.2600.5512   |995840 |2008-04-14 21:40:40|D:\WINDOWS\system32                                                                                 |
+|7C900000|ntdll.dll           |Системная библиотека NT                                       |5.1.2600.5512   |710144 |2008-04-14 21:40:20|D:\WINDOWS\system32                                                                                 |
+|7C9C0000|shell32.dll         |Общая библиотека оболочки Windows                             |6.0.2900.5512   |8478208|2008-04-14 21:40:46|D:\WINDOWS\system32                                                                                 |
+|7E360000|USER32.dll          |Библиотека клиента USER API Windows XP                        |5.1.2600.5512   |579072 |2008-04-14 21:40:48|D:\WINDOWS\system32                                                                                 |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                |Description                            |Version        |Memory  |Priority|Threads|Path                                           |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System              |                                       |               |225280  |Normal  |65     |                                               |
+|176 |egui.exe            |ESET GUI                               |4.0.314.0      |7151616 |Normal  |7      |D:\Program Files\ESET\ESET NOD32 Antivirus     |
+|280 |ctfmon.exe          |CTF Loader                             |5.1.2600.5512  |3428352 |Normal  |1      |D:\WINDOWS\system32                            |
+|320 |VistaDrv.exe        |                                       |               |6017024 |Normal  |1      |D:\Program Files\VistaDriveIcon                |
+|376 |inetinfo.exe        |Internet Information Services          |5.1.2600.5512  |9818112 |Normal  |25     |D:\WINDOWS\system32\inetsrv                    |
+|400 |jqs.exe             |Java(TM) Quick Starter Service         |6.0.210.6      |1413120 |Low     |12     |D:\Program Files\Java\jre6\bin                 |
+|404 |punto.exe           |Punto Switcher                         |3.1.1.72       |7176192 |Normal  |3      |D:\Program Files\Yandex\Punto Switcher         |
+|436 |matlabserver.exe    |                                       |               |9707520 |Normal  |5      |C:\MATLAB6p5\webserver\bin\win32               |
+|596 |smss.exe            |                                       |               |405504  |Normal  |3      |\SystemRoot\System32                           |
+|684 |winlogon.exe        |                                       |               |3661824 |High    |20     |D:\WINDOWS\system32                            |
+|728 |services.exe        |Приложение служб и контроллеров        |5.1.2600.5512  |3129344 |Normal  |16     |D:\WINDOWS\system32                            |
+|740 |lsass.exe           |LSA Shell (Export Version)             |5.1.2600.5512  |1064960 |Normal  |20     |D:\WINDOWS\system32                            |
+|924 |svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |4980736 |Normal  |17     |D:\WINDOWS\system32                            |
+|1104|svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |23019520|Normal  |72     |D:\WINDOWS\System32                            |
+|1212|sqlwriter.exe       |SQL Server VSS Writer                  |2009.100.1600.1|3497984 |Normal  |3      |D:\Program Files\Microsoft SQL Server\90\Shared|
+|1484|SciTE.exe           |SciTE - a Scintilla based Text Editor  |1.7.6.57       |5808128 |Normal  |1      |D:\Program Files\SciTE                         |
+|1572|spoolsv.exe         |Spooler SubSystem App                  |5.1.2600.5512  |5906432 |Normal  |12     |D:\WINDOWS\system32                            |
+|1764|Explorer.EXE        |Проводник                              |6.0.2900.5512  |30040064|Normal  |20     |D:\WINDOWS                                     |
+|1848|TSVNCache.exe       |TortoiseSVN status cache               |1.6.10.19898   |5926912 |Normal  |8      |D:\Program Files\TortoiseSVN\bin               |
+|2028|ekrn.exe            |ESET Service                           |4.0.314.0      |60461056|Normal  |21     |D:\Program Files\ESET\ESET NOD32 Antivirus     |
+|2044|BJMyPrt.exe         |Canon My Printer                       |1.5.0.0        |2846720 |Normal  |1      |D:\Program Files\Canon\MyPrinter               |
+|2112|Autorun.exe         |                                       |0.0.0.362      |13262848|Normal  |2      |F:\D\ЛЕША\Универ\ПОЗДНЯКОВ\Степуленок\Обмен    |
+|2152|plugin-container.exe|Plugin Container for Firefox           |1.9.2.3909     |23695360|Normal  |10     |D:\Program Files\Mozilla Firefox               |
+|2728|svchost.exe         |Generic Host Process for Win32 Services|5.1.2600.5512  |3403776 |Normal  |8      |D:\WINDOWS\System32                            |
+|2900|firefox.exe         |Firefox                                |1.9.2.3909     |99430400|Normal  |23     |D:\Program Files\Mozilla Firefox               |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+----------------------
+
+Registers:
+----------
+
+

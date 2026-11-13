@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="windows-1251"?>
+                              
+<config>
+  <!-- Это конфигурационный файл с настройками программы -->
+  <mainFormCaption>Журнал Компьютерные Инструменты в Образовании</mainFormCaption>
+  <Button image="img\Сайт журнала.bmp" open='http://ipo.spb.ru/journal' x="48" y="163"/>
+  <Button image="img\E-mail.bmp" open='mailto:kio@ipo.spb.ru' x="863" y="163"/>
+  <Button image="img\E-mail.bmp" action='Install_All' x="633" y="163"/>
+  <Button image="img\Выход.bmp" action='Exit' x="733" y="163"/> 
+  <Button image="img\Выход.bmp" action='Install' x="733" y="163"/> 
+  <!-- Картинка для подложки  -->
+  <backGround filename="img\Фон.jpg"/>
+  
+  <!-- Общие настройки для всех "листиков": Page - листик Icon - картинка внутри листика -->
+  <AllPages 
+     pageWidth = "168" pageHeight = "168" pageImage = "img\listik.bmp"
+     iconLeft = "35" iconTop = "33"
+     LabelBorderWidth = "3">
+     <!-- Шрифт для всех "листиков" -->
+     <font 
+       size="10" 
+       family="Tahoma" bold="True" italic="True" strikeout="False" underline="False" color="clWhite"/>
+  </AllPages>
+
+  <!-- Описание отдельных листиков -->
+  <!-- 
+  exe - путь к файлу, чтобы его запускать напрямую (если не требуется инсталляция)
+  installerExe - путь к инсталлятору (если требуется установка программы)
+  exeAfterInstall - относительный путь к exe-файлу после инсталляции
+  regInstallPath - где хранится путь установленной программы в реестре 
+  Если указан exe-файл, то программа запускает exe-файл.
+  Если указан инсталлятор, то программа проверяет, есть ли ключ в реестре,
+  если ключа нет => запускает инсталлятор, если ключ есть, запускает exe-файл exeAfterInstall.
+  Standart - входит в стандартную установку (устанавливать эту программу, если выбрана Стандартная установка)
+  pageImage - изображение для данного листика в отдельности
+  -->
+  <Page exe="data\a.exe" icon="data\a.jpg" 
+    X="52" Y="265" 
+    Hint="Это программа A" 
+    header="Стратегия"
+    bottom="Подпись внизу"
+    html="html\strat.html" 
+    installerExe=""
+    exeAfterInstall=""
+    regInstallPath=""
+    Standart="true"
+    pageImage = "img\listik.bmp" 
+  />
+  <Page exe="data\java_app.jar"
+    icon="data\a.jpg" 
+    X="243" Y="228" 
+    Hint="Пример Java-программы"
+    header="Java-программа"
+    bottom="Подпись внизу!"
+    html="ааа.html"
+  >      
+    <need msi="java"/>
+    <need msi="java"/>
+  </Page>
+  <Page exe="data\b.exe" icon="data\b.jpg" 
+    X="462" Y="234" 
+    Hint="Это программа B" html="data\b.html"/>
+  <!--
+  http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_9_active_x.msi
+  http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_plugin.msi
+  -->
+  <msi 
+    id="flash" 
+    exe="msi/install_flash_player_9_active_x.msi"
+    cmd="%exe% /qb-!"/>
+  <msi id="flash_ie" 
+    exe="msi/install_flash_player_plugin.msi"
+    cmd="%exe% /qb-!"/>
+  <!-- http://java.sun.com/javase/downloads/index.jsp - тут можно скачать JRE -->
+  <msi id="java" 
+    exe="msi/J2SE Runtime Environment 5.0.msi"
+    cmd="%exe% /qn ADDLOCAL=ALL IEXPLORER=1 REBOOT=ReallySuppress JAVAUPDATE=0 SYSTRAY=0"
+    check="java -version"
+    Confirmation1="Необходимо установить подержку апплетов!"
+    Confirmation2="Необходимо установить подержку апплетов!"
+  />
+  <!-- Здесь ADDLOCAL=ALL - полная установка;
+IEXPLORER=1 - выполнять апплеты из IE;
+REBOOT=ReallySuppress - перезагрузка на всякий случай;
+JAVAUPDATE=0 - отключить автообновление;
+SYSTRAY=0 - не показывать иконку Java в трэе. -->
+
+
+</config>                                                            
